@@ -1,0 +1,188 @@
+/*�б��Ż� 20160531*/
+
+.floatr{float: right;}
+.floatl{float: left;}
+
+/*��ͼ�ҷ���ť*/
+.box .fang_map{float: right; display: block; width: 120px; height: 30px; line-height: 29px; background: #ff3333; color: #fff;
+    font-size: 14px; font-family: "Microsoft Yahei"; text-align: center; margin-top: 5px;}
+.fang_map i{display: inline-block; width: 12px; height: 14px; background: url(http://img1.soufun.com/house/images/newstyle/icon_map.png) no-repeat;
+    margin-right: 5px; vertical-align: -2px;}
+
+/*�����ҷ���ť*/
+.breadcrumb .btn_find{display: block; width: 120px; height: 30px; line-height: 29px; background: #ff3333; color: #fff; font-size: 14px;
+    font-family: "Microsoft Yahei"; text-align: center; position: absolute; right: 0; top: 10px;}
+.btn_find i{width: 19px; height: 19px; display: inline-block; background: url(../img/icon_fang.png) no-repeat;
+    margin-right: 5px; vertical-align: -4px;}
+.breadcrumb .btn_find:hover{color: #fff;}
+
+/*ѡ������ ͼ��*/
+.choose {margin-top: 0;}
+.chooseToolBtn span a{width: 130px;}
+.chooseToolBtn i{display: inline-block; width: 16px; height: 16px; background: url(../img/icon_pic.png) no-repeat;
+    vertical-align: -2px; margin-right: 6px;}
+.chooseToolBtn .icon_lp{background-position: 0 0;}
+.chooseToolBtn .icon_hx{background-position: 0 -16px;}
+.chooseToolBtn .icon_fy{width: 18px; background-position: 0 -32px; }
+.chooseToolBtn .icon_school{width: 19px; background-position: 0 -48px;}
+.choose .curItem a{ display: inline-block; margin-right: 12px; font-size: 12px; color: #666; margin-top: 2px;}
+.choose .curItem a:hover{color: #666;}
+.curItem .item{display: inline-block; border: 1px solid #ffb281; height: 17px; line-height: 17px;
+    background: #fff url(../img/btn_cls.gif) no-repeat right 0; padding: 0 25px 0 6px;}
+.curItem .del_all{height: 16px; line-height: 16px; background: url(../img/icon_clear.png) no-repeat; padding-left: 20px;}
+.cout_redbag{position: absolute; left: 0; top: 40px; font-size: 12px; color: #999;}
+
+/*���ۡ����ۡ�����*/
+.inSale,.forSale,.outSale,.zusale{float: left; font-size: 12px; height: 20px; line-height: 20px; padding: 0 5px; margin-right: 5px; }
+.inSale{border: 1px solid #ff6666; color: #ff6666;}
+.forSale{border: 1px solid #ff9900; color: #ff9900;}
+.outSale{border: 1px solid #ccc; color: #ccc;}
+.zusale{border: 1px solid #00a8ff;color:#00a8ff;}
+
+/*�鿴���ַ�*/
+.kanesf{position: absolute; top: 30px; right: 15px; ; height: 65px; z-index: 1; font-size: 20px; color: #999;}
+.kanesf p{margin-top: 10px;}
+.kanesf p a{font-size: 14px; color: #3399ff;}
+.esfLp{float: right; font-size: 14px; color: #ff9900; position: absolute; right: 0; bottom: 1px;}
+
+
+.contentList dl dd {width: 680px;}
+/*����������ţ��Ż�ȯ����ɱ*/
+.bottom_sale{height: 24px;padding: 15px 0 0 198px;}
+.bottom_sale span{margin-right: 20px; font-size: 12px; color: #666;}
+.bottom_sale i{display: inline-block; width: 20px; height: 20px; vertical-align: middle;
+    background: url(http://img1.soufun.com/house/images/newstyle/icon_sale2.png) no-repeat; margin-right: 8px;}
+.bottom_sale .tuan{background-position: 0 -20px;}
+.bottom_sale .discount{background-position: 0 -40px;}
+.bottom_sale .kill{background-position: 0 -60px;}
+.nhouse_list_nav li.on a{color: #ff3333;}
+
+
+
+/*top10�ʹ����*/
+.extend{background: #f3f3f3; height: 164px; width: 1200px; margin: 16px auto 0 auto;display:none;}
+.extend_l{float: left; width: 966px; position: relative;}
+.extend_l .top10{width: 36px; height: 50px; background: url(http://img1.soufun.com/house/images/newstyle/icon_top10.png) no-repeat; position: absolute; left: 10px; top: 0;}
+.extend_list{margin: 20px 0 20px 56px;}
+.extend_list li{margin-right: 10px; width: 266px; height: 98px; padding: 12px 10px; background: #fff; float: left; border-bottom: 2px solid #fff;}
+.extend_list li:hover{border-bottom: 2px solid #ff3333;}
+.list_pic{width: 134px; height: 100px; float: left; overflow: hidden;}
+.list_pic img{width: 134px; height: 100px;}
+.list_info{float: left; width: 122px; margin-left: 10px; font-family: "Microsoft Yahei"; overflow: hidden;}
+.list_info .price{color: #999; line-height: 25px;}
+.price .ff3333{color: #ff3333; font-size: 16px; font-weight: bold;}
+.price .icon_rmb{font-size: 12px; font-weight: 400;}
+.list_info .btn_details{display: block; border: 1px solid #cbcccd; width: 90px; height: 22px; line-height: 22px;
+    font-size: 12px; color: #999; text-align: center; margin-top: 5px;}
+.btn_details:hover{border: 1px solid #ff3333; color: #ff3333;}
+.extend_r{float: right; position: relative; width: 234px;}
+.discount-img{width: 36px; height: 50px; background: url(http://img1.soufun.com/house/images/newstyle/icon_discount.png) no-repeat; position: absolute; left: 0; top: 0;}
+.discount_list{padding: 20px 0; width: 156px; overflow: hidden; margin-left: 45px; font-family: "Microsoft Yahei";}
+.discount_list li{height: 25px; line-height: 25px; overflow:hidden; white-space: nowrap; text-overflow: ellipsis;}
+.discount_list li a:hover{color: #ff3333;text-decoration:underline !important;}
+
+/*���ࡢ����*/
+.choose dl dd .hui { color: #ff3333; font-weight: bold;}
+/*.choose dl dd .quyu_name {display: block;width: 1038px;}*/
+.choose dl dd .Units{color: #999;}
+.choose dl .lp_area{position: relative;}
+.choose dl dd .lp_area_more,.choose dl dd .lp_area_shouqi{width: 50px; height: 14px; line-height: 14px; color: #999;
+    position: absolute; right: 10px; top: 15px; cursor: pointer;}
+.lp_area_more i,.lp_area_shouqi i{display: inline-block; width: 12px; height: 10px; background: url(../img/icon_jt.png) no-repeat; vertical-align: middle;
+    margin-left: 5px;}
+.lp_area_shouqi .jt_up{background-position: 0 -10px;}
+
+/*����*/
+
+.nhouse_list_nav {height: 40px;line-height: 40px; width: 878px; z-index: 998; border: none; background: #fbfbfb; border: 1px solid #ccc; margin-bottom: 20px;}
+.nhouse_list_nav .rankWrap{float: right; border: none; padding: 0;}
+.nhouse_list_nav li.rankWrap:hover{background: #fff; color: #ff3333; border-top: none; border-bottom: none;}
+.nhouse_list_nav .rankBox{float: left;}
+.nhouse_list_nav .rankBox ul li{float: left; height: 40px; border: none; padding: 0;}
+.nhouse_list_nav .rankBox li:hover{border-top: none; border-bottom: none; }
+.nhouse_list_nav .rankBox li a{display: block; float: left; padding: 0 20px; height: 40px; line-height: 40px; font-size: 12px;}
+.rankBox li .cur{background: #fff; color: #ff3333; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-top: none;}
+.rankBox i{display: inline-block; width: 8px; height: 10px;
+    background: url(http://img1.soufun.com/house/images/newstyle/icon_rank.png) no-repeat; vertical-align: middle; margin-left: 2px;}
+.rankBox .rank_up{background-position: 0 -10px;}
+.rankBox .rank_down{background-position: 0 -20px;}
+.otherpage{float: left; font-size: 12px; color: #666; font-family: Arial;padding:0 10px}
+.otherpage a{display: inline-block; height: 40px; line-height: 40px; padding: 0 0px;}
+.otherpage .ff3333{color: #ff3333;}
+
+
+.choose {margin-top: 0; border-top: 0;}
+.chooseToolBtn span {border-top: 1px solid #ddd;}
+.chooseToolBtn .btn_find{display: block; width: 120px; height: 30px; line-height: 29px; background: #ff3333; color: #fff; font-size: 14px;
+    font-family: "Microsoft Yahei"; text-align: center; position: absolute; right: -1px; top: 0px;}
+.btn_find i{width: 19px; height: 19px; display: inline-block; background: url(http://img1.soufun.com/house/images/newstyle/icon_fang.png) no-repeat;
+    margin-right: 5px; vertical-align: -4px;}
+.chooseToolBtn .btn_find:hover{color: #fff;}
+
+.nl_con > ul > li.fffbf2{background: #fffbf2;}
+.kanzx{display:block; height: 60px; position: absolute; right: 15px;top: 30px;z-index: 1; padding-right: 35px;}
+.kanzx h3 a{color: #cc0000; font-size: 22px; font-weight: 400;}
+.kanzx p{margin-top: 10px; }
+.kanzx p a {color: #999; font-size: 14px;}
+.kanzx-jt{display:block;width:27px;height:28px;background: url(http://img1.soufun.com/house/images/newstyle/chakan_02.png) no-repeat;position: absolute;right: 0; top: 20px;}
+
+.Revision{padding-top: 20px; }
+.house_type a {margin-right: 0;}
+/*20160701*/
+.extend {width: 1200px; background: #eee; height: 164px; margin: 0 auto 16px; position: relative;}
+.list_info .btn_details {border: 1px solid #ff3333; color: #ff3333;}
+.list_info .btn_details:hover{background: #ff3333; color: #fff;}
+.list_pic{position: relative;}
+.img_text{ width: 100%; height: 22px; line-height: 22px; position: absolute; left: 0; bottom: 0; font-size: 12px; text-indent: 5px; 
+	font-family: "Microsoft Yahei"; 
+filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000');}
+:root .img_text {filter:none;background-color:rgba(0,0,0,0.6);}
+.img_text a{display: block; color: #fff; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+
+
+.choose{border: none; position: relative;}
+.chooseToolBtn{border: 1px solid #ddd; height: 34px; margin-bottom: 0; border-right: none; border-bottom: none; float: left;}
+.chooseToolBtn a{display: block; float: left; width: 130px; height: 34px; line-height: 34px; color: #333; font-size: 16px; 
+	border-right: 1px solid #ddd; position: relative; text-align: center;}
+.chooseToolBtn .on {border-bottom: 1px solid #fff; font-weight: bold;/* margin-bottom: -1px;*/}
+.btn_find{display: block; background: #ff3333; width: 120px; height: 30px; line-height: 29px; border-radius: 3px;
+ position: absolute; right: 0; top: 0; text-align: center; font-size: 14px; color: #fff; font-family: "Microsoft Yahei";}
+.btn_find:hover{color: #fff;}
+.choose dl{border: 1px solid #ddd; padding-top: 5px;}
+.choose dl dd {padding: 5px 0;}
+.choose dl dd, .choose dl dt {border-bottom: none;}
+.choose dl dd .lp_area_more, .choose dl dd .lp_area_shouqi {color: #999; cursor: pointer; height: 14px; line-height: 14px; 
+	position: absolute; right: 10px; top: 10px; width: 50px;}
+.choose .xie {top: 7px;}
+.con_sure{margin-top: 0; line-height: 21px;}
+.nhouse_list_nav li{float: left; height: 40px; line-height: 40px; border-right: 1px solid #ccc; border-bottom: none; border-top: none; 
+	cursor: pointer; font-size: 14px; padding: 0 20px;}
+.nhouse_list_nav li.on, .nhouse_list_nav li:hover {background: #fff; border-bottom: 1px solid #fff; border-top: none; position: relative;}
+.nhouse_list_nav .rankBox li a {background: #fbfbfb;}
+.nhouse_list_nav .rankBox li a:hover{color: #ff3333;}
+.rankBox li .cur {background: none; border: none; color: #ff3333;}
+.rankBox i {background: url("http://img1.soufun.com/house/images/newstyle/arrow_rank.png") no-repeat; display: inline-block; width: 9px; height: 10px;
+ margin-left: 2px;vertical-align: middle;}
+.rankBox li .cur .arrow_down_red{background-position: 0 -30px;}
+.rankBox li .cur .arrow_up_red{background-position: 0 -20px;}
+.rankBox .arrow_down{background-position: 0 -10px;}
+.otherpage {color: #666;float: left;font-family: Arial;font-size: 12px; padding: 0 10px; background: #fbfbfb; cursor: default;}
+.otherpage .disable{color: #999; cursor: default;}
+.sale_txt{width: 34px; height: 22px; line-height: 22px; text-align: center; color: #fff; font-size: 12px; 
+	position: absolute; left: 0; top: 0; background: red;}
+
+.fangyuan span{display:block; float:left; border:1px solid #ddd; color:#999; height:20px; line-height:20px; padding: 0 5px; margin-right: 5px;}
+.fangyuan .forSale{border: 1px solid #ff9900;color: #ff9900;}
+.fangyuan a{cursor:text;}
+
+.fangyuan .inSale { border: 1px solid #ff6666;color: #ff6666;}
+.fangyuan .outSale {border: 1px solid #ccc; color: #ccc;}
+.fangyuan .zusale {border: 1px solid #00a8ff;color: #00a8ff;}
+
+/*20160715*/
+.hot_tj{width: 85px; height: 70px; background: url(http://img1.soufun.com/house/images/newstyle/hot_tj.png) no-repeat; cursor: pointer;
+	position: fixed; top: 40%; left: 50%; margin-left: -685px; z-index: 10000;display:none;}
+
+
+
+

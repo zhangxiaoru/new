@@ -1,0 +1,126 @@
+/* ËÑË÷¿ò */
+.s_box{ margin-top:15px; *overflow:hidden;}
+.box_input{width:490px;height:38px;  -webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px; font-family:"\5FAE\8F6F\96C5\9ED1",Î¢ÈíÑÅºÚ,"Microsoft Yahei",ÑÅºÚ\9,Arial;position:relative;z-index:9000;}
+.box_input form{ width:400px; height:36px; border:solid 1px #d2d2d2; background:#FFF; border-right:none; float:left; overflow:hidden;}
+.box_input form .search{ width:380px;height:20px;line-height:20px; padding:9px 10px; border:none 0; color:#666;font-size:14px; font-family:"\5FAE\8F6F\96C5\9ED1",Î¢ÈíÑÅºÚ,"Microsoft Yahei",ÑÅºÚ\9,Arial; box-sizing:content-box;background:none;}
+.box_input .search:focus,.box_input .search:hover{-moz-box-shadow: inset 0 0 6px rgba(0,0,0,.2);-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.2);-o-box-shadow: inset 0 0 6px rgba(0,0,0,.2); box-shadow: inset 0 0 6px rgba(0,0,0,.2);}
+.box_input .sear_btn{float:right;width:89px;height:38px;line-height:38px;color:#FFF;font-size:16px; font-weight:bold;background: #df0303;border:none; text-align:center; cursor:pointer; font-family:"\5FAE\8F6F\96C5\9ED1",Î¢ÈíÑÅºÚ,"Microsoft Yahei",ÑÅºÚ\9,Arial;  -moz-transition:all 0.2s linear; -webkit-transition:all 0.2s linear; -o-transition:all 0.2s linear; transition:all 0.2s linear; -webkit-appearance:none;}
+.box_input .sear_btn:hover{background:#c00;}
+/*É¸Ñ¡*/
+.s_list{float:left;}
+.s_list .n_li{float:left;display:inline; font-size:12px;width:98px;height:36px;border:1px solid #d2d2d2;color:#666666;margin-right:6px;background:url(http://img1.soufun.com/house/images/index201409/search_icon.gif) 70px 8px no-repeat;background-color:#FFF;position:relative; z-index:1001; font-family:"\5FAE\8F6F\96C5\9ED1",Î¢ÈíÑÅºÚ,"Microsoft Yahei",ÑÅºÚ\9,Arial;}
+.n_li .dq{display:block;width:100%;height:36px; font-size:14px; line-height:36px;text-decoration:none;color:#666;text-indent:10px;}
+.n_li a:hover.dq{box-shadow: inset 0 0px 4px rgba(0,0,0,.2);}
+
+.s_list .no_click{background-color:#ececec;}
+.s_list .no_click a{cursor:default;}
+.area { border: 1px solid #ececec; border-bottom: none; position: absolute; top: 36px; left: -1px; display: none; background:#fff; box-shadow: 2px 2px 2px rgba(0,0,0,0.2); } 
+.area .a_option{float:left;width:100px;height:28px;line-height:28px;text-align:center;background:#FFF;border-bottom:1px solid #ececec;border-right:1px solid #ececec;color:#666666;text-decoration:none;cursor:pointer;} 
+.width303{width:303px} 
+
+.area li a.on{ background:#f2f2f2;}
+.area .a_option_cont{clear:both;padding:10px;background:#f2f2f2;border-bottom: solid 1px #ececec; border-bottom: solid 1px #ddd; overflow:hidden;white-space:nowrap;*zoom:1;}
+.area .hover_a{background:#f2f2f2;color:#666666;font-weight:bold;border-bottom:1px solid #f2f2f2;}
+.a_option_cont a{padding-right:10px;color:#999999;text-decoration:none; float:left;}
+.a_option_cont a:hover{ color:#c00;}
+.pb{position:absolute;top:0;}
+.w101{width:100px;position:absolute;left:-1px;top:36px;box-shadow:2px 2px 2px #e2e2e2;display:none;}
+.w101 li{border:1px solid #ccc;text-align:center;height:36px;line-height:36px; overflow:hidden;background:#FFF;margin-top:-1px;}
+.w101 a{display:block;height:100%;text-decoration:none;}
+/* ±£´æÇå¿Õ */
+.cfa{margin:11px 20px  0 20px; overflow:hidden;}
+.cfa span{float:left;background:url(http://img1.soufun.com/house/images/index201409/search_icon.gif) no-repeat;height:20px;line-height:20px;padding-left:20px;cursor:pointer;margin-right:12px;color:#666666;}
+.cfa .save{background-position:-5px -30px;}
+.cfa .del{background-position:-7px -67px;}
+/*ËÑË÷¿òÏÂÀ­*/ 
+.tyka {width:100%;background:#fff; border:#dddddd 1px solid; z-index:1000;overflow:hidden; } 
+.tyka td {height:25px;line-height:25px;font-size:14px;text-decoration:none; padding-left:6px;cursor:pointer } 
+.tyka td:hover{background-color:#ECECEC;}
+.tyka td:hover a{color:#f33; text-decoration:underline;}
+.tyka td a{white-space: nowrap;}
+.paneltable{background:#fff;border:1px solid #bebebe;padding:1px;} 
+.paneltable a{display:block;margin:0 auto;padding:4px;font-size:14px;height:20px;line-height:20px;color:#333;white-space:nowrap;text-decoration:none;font-family:"\5FAE\8F6F\96C5\9ED1",Î¢ÈíÑÅºÚ,"Microsoft Yahei",ÑÅºÚ\9,Arial; } 
+.paneltable a:hover,.suggest_selected{height:20px;line-height:20px;font-size:14px;background:#ebebeb;color:#333;white-space:nowrap;} 
+.paneltable a.panelcurrent{height:14px;line-height:14px;font-size:12px;background:#2d7ec9;color:#fff;white-space:nowrap;} 
+.priceinput{border:1px solid #CACACA;font-size:11px;} 
+.pricebutton{font-size:12px;color:#333;border:solid 1px #A9A9A9;display:inline-block;width:39px;height:18px;line-height:18px;background-color:#F6F6F6;background-image:url(http://img1.soufun.com/house/detail_php/images/price_bg.png);background-repeat:repeat-x;} 
+.pricebutton:hover{cursor:pointer;} 
+.priceself{border-top:1px solid #E2F3FF;line-height:20px;padding:2px;} 
+.tbheadmore{color:#F60;font-size:12px;font-weight:bold;line-height:26px;height:26px;overflow:hidden;} 
+.tbheadmore span{padding-left:4px;} 
+th.tbheadmore{text-align:left;padding-left:3px;}
+tr .item{}
+tr.itemFocus{background-color:#ebebeb;}
+
+.scbox_tit { display:block; width:100%; height:28px; line-height:28px; background:#fff;text-indent: 10px;text-decoration:none!important; }
+/*loupan*/
+.hot,.hot_a{margin:5px 0 0 15px;width:460px; overflow:hidden;padding-left:22px;background:url(http://img1.soufun.com/house/images/index201409/search_icon.gif)  -7px -216px no-repeat;color:#333333;font-size:14px;height: 28px; line-height: 28px;word-break:keep-all;}
+.hot li,.hot_a li{display:inline;margin-right:10px;}
+.hot li a,.hot_a li a{ color:#333; text-decation:none;}
+.hot li a:hover,.hot_a li a:hover{ color:#c00; text-decation:underline;}
+.Search_Tips em { color:#f00!important; text-decoration:underline; padding:0px 2px; font-weight:normal;}
+.hot_a{width:335px;}
+
+/* CSS Document */
+.mininav{width:150px; height:auto; z-index:1000; background-color:transparent;}
+.mininav .mainCate{ float:left; clear:both; background-color:transparent; background:url(http://img1.soufun.com/house/images/index201409/sub_c_bg.gif) repeat-x 0 0;   }
+.mininav .mainCate a { color:#666 ; text-decoration:none;}
+.mininav .mainCate a:hover{ color:#c00; text-decoration:none;}
+.mininav .mainCate .subnav_area { width:150px; position:relative;  background:url(http://img1.soufun.com/house/images/index201409/sub_y_bg.gif) repeat-y right 0 transparent;border-left:solid 1px #e5e5e5;height:30px; line-height:30px; z-index:30; overflow:hidden; }
+.mininav .mainCate.on .subnav_area{  width:150px; height:29px; border-left:solid 1px #d2d2d2; border-bottom:1px solid #d2d2d2;  background:url(http://img1.soufun.com/house/images/index201409/sub_c_bg.gif) repeat-x 0 -99px #fff; }
+.mininav .mainCate.on .btit{ background:none;}
+.mininav .mainCate .subnav_area.last { border-bottom:1px solid #e5e5e5; box-shadow:0 2px 0 #e5e5e5; /*height:55px*/;}
+.mininav .mainCate.on .subnav_area.last { border-bottom:1px solid #d2d2d2; }
+.mininav .subCate{ display:none; background:#fff; border:solid 1px #ccc;position:absolute; left:150px; top:0px; width:458px;  padding:0 20px 5px 20px; color:#333; z-index:20; box-shadow: 0 2px 0px rgba(0,0,0,0.1);}
+.btit {height:30px;line-height:30px;width:130px; overflow:hidden; display: block; background:url(http://img1.soufun.com/house/images/index201409/search_icon.gif) 114px -250px  no-repeat;padding:0 10px; text-align:left;}
+.btit  span {font-weight: bold;font-size: 14px;}
+.btit  span a{margin: 0 5px 0 5px; display: inline-block;} 
+.btit  a {color:#000; text-decoration:none; width:58px; text-align:left; display: inline-block;font-size: 12px;}
+.subitem { float:left;width:450px;}
+.subitem dl {width:450px; padding:7px 0px 3px; overflow:hidden; zoom:1; }
+.subitem .fore1 { border-bottom:1px solid #e5e5e5;  font-size:12px; }
+.subitem dt {width: 450px; text-align:left;line-height:20px; color:#666 !important; font-weight:bold;}
+.subitem dd {width:450px; height:auto; margin-top:3px; overflow:hidden; }
+.subitem dd a {color:#666; text-decoration:none; float:left; display: inline-block;}
+.subitem dd em {height:14px; line-height:14px; padding-bottom:5px; color:#e9e9e9; font-style:normal;display:inline-block; overflow:hidden; *zoom:1; }
+.mininav .subCate #sub-ul-1{ width:100%;;  }
+.mininav .on .subCate{ display:block !important; }
+.mainCate-top .subCate{ top:0px;}
+.mainCate-bot .subCate{ top:auto; bottom:0px;}
+
+.bor_bot_no{ border-bottom:none !important;}
+/*ÆäËû*/
+.area_lw{width: 98px; height:auto; border:solid 1px #e5e5e5; overflow:hidden; *zoom:1;}
+.area_lw ul{ width:100%;}
+.area_lw ul li{color:#666; height:29px; line-height:29px; border-bottom: solid 1px #e5e5e5;}
+.area_lw ul li.area_last{ border-bottom:none;}
+.area_lw ul li a{ color:#666; text-decoration:none; padding-left:10px;white-space: nowrap; display: block;}
+.area_lw ul li a:hover{ color:#c00;background:#f2f2f2;}
+
+.fylist {border-left: 1px solid #ddd;width:114px; border-top: 1px solid #ddd;overflow: hidden; position:absolute; right:0px; top:-7px;} 
+.fylist span {border-bottom: 1px solid #dddddd; border-right: 1px solid #dddddd; float: left; text-align: center;} 
+.fylist span a {background:url(http://img.soufun.com/secondhouse/image/esfnew/images/head2014/search_ico.png) no-repeat; color:#999; display: block; height: 20px; padding-top:26px; text-decoration: none; width: 56px; height:22px;} 
+.fylist span.listmode a { background-position: 17px 7px; background-color: #fff;} 
+.fylist span.mapmode a { background-position: 15px -41px;}
+/*ÊÖ»ú²¹Ìù*/ 
+.phone_bt a{ height:38px; line-height:38px; color:#333; font-size: 15px; text-indent: 5px; display: block;} 
+.phone_bt a:hover{ color:#c00; text-decoration:underline;} 
+
+.phone_bt{ width:120px; height:auto; position:relative;} 
+.phone_bt_tc{ width:120px; height:159px; background:url(http://img1.soufun.com/house/images/kuang.png) no-repeat; position:absolute; top:30px;left: 4px;} 
+.phone_bt_tc img{ margin:17px 0 0 15px;} 
+.phone_bt_tc p{ font-size:12px; color:#333; padding:5px 0; line-height:20px; text-align:center;}
+/*ÔÚÊÛÐÂÔö*/
+.yuding{height:14px; line-height:14px; overflow:hidden;}
+/* µØÍ¼¡¢ÁÐ±í */
+.qh{border-left:1px solid #ddd;border-top:1px solid #ddd;  overflow:hidden;position: absolute;top: -5px;right: 0;}
+.qh span{float:left;text-align:center;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;}
+.qh span a{display:block;width:56px;height:20px;background:url(http://img.soufun.com/secondhouse/image/esfnew/images/head2014/search_ico.png ) no-repeat;padding-top:30px;color:#999999;text-decoration:none;}
+.qh .map a{background-position: 15px -38px;}
+.qh .list a{background-position: 15px -88px;}
+.qh .map a:hover{background-position: 15px -135px;} 
+.qh .list a:hover{background-position: 15px 9px;}
+/*********ÒÔÏÂcss·Åµ½ÎÄ¼þ×îºó*********/
+.phone_bt_chen{ width: 114px; padding-right: 124px;} 
+.hot_a_2105_7_7{ width:371px;}
+.hot_chen{ background:none; padding-left:0px; width: 320px;}

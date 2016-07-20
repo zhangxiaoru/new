@@ -1,0 +1,361 @@
+@charset "gb2312";
+/* CSS Document */
+
+/* 选择区域 */
+.choose  { border:1px #ddd solid; margin-top:14px; position:relative;}
+.chooseToolBtn{ border-bottom: 1px solid #ddd; margin-bottom: 9px; height: 34px; position: relative;}
+.chooseToolBtn span { display: block; position: absolute; left: 0px; top: 0px; }
+.chooseToolBtn span a{ display: block; float: left; width: 100px; line-height: 34px; height: 34px; text-align: center; color: #333; font-size: 16px; border-right: 1px solid #ddd; position: relative;}
+.chooseToolBtn .on{ font-weight: bold; border-bottom:1px solid #fff;margin-bottom:-1px;}
+.choose dl dt { padding-top: 9px; padding-bottom: 9px; line-height: 26px; color: #333; }
+.choose dl dt em { margin-right: 11px; margin-left: 18px; }
+.choose dl dt, .choose dl dd {display: block; }
+.choose dl dt .tiaojian li{ float: left; display:inline-block; border: 1px dashed #FF3333; color: #FF3333; margin-right: 12px; padding-right:6px; padding-left: 8px; overflow: hidden; line-height: 24px; height: 24px; vertical-align: middle; }
+.choose dl dt .tiaojian a{ color: #F33; text-decoration: none; vertical-align: middle; display: inline-block; line-height: normal; margin-top: 4px; }
+.choose dl dt .tiaojian   li a.close{ height: 11px; width: 11px; cursor:pointer; background-image: url(http://img1.soufun.com/house/images/icon.gif); background-repeat: no-repeat; background-position: left top; margin-left: 6px; margin-top: 7px; }
+.choose dl dt .tiaojian a.close:hover { background-image: url(http://img1.soufun.com/house/images/icon.gif); background-repeat: no-repeat; background-position: left -11px; }
+.choose dl dt .tiaojian .fr { float: right; border: none; padding-top:6px;}
+.choose dt .tiaojian .fr cite { background-image: url(http://img1.soufun.com/house/images/icon.gif); background-repeat: no-repeat; background-position: left -23px; display: block; height: 16px; width: 19px; }
+.choose dl dt .tiaojian .fr a { border: none; margin-top: 0px; color: #333; }
+.choose dt .tiaojian .fr span { line-height: 16px; color: #999; height: 16px; }
+.choose dt .tiaojian .fr.qingkong cite{ background:url(http://img1.soufun.com/house/images/icon.gif) no-repeat left -40px;}
+.choose dt .tiaojian .qingkong,.choose dt .tiaojian .baocun{cursor:pointer; }
+.choose dt .tiaojian .qingkong a:hover,.choose dt .tiaojian .baocun a:hover{text-decoration:underline;}
+
+.choose dl dd{ padding: 10px 0;}
+.choose dl dd,.choose dl dt{ border-bottom:1px dashed #CCC;}
+.choose dl dd a { display:block; float:left; color: #000; margin-right: 24px;white-space: nowrap;}
+.choose dl dd ul li{ float: left; line-height: 25px;}
+.choose dl dd .quyu_area { color: #666666; width: 55px; padding-left: 18px; }
+.choose dl dd .quyu_name { display: block; width: 1098px;}
+.choose dl dd .quyu_name a{ }
+.choose dl dd .dingwei { position: relative; }
+.choose dl dd .open { position: absolute; top: 0px; right: 0px; }
+.choose dl dd .open a { height: 10px; width: 9px; margin-right: 0px; background-image: url(http://img1.soufun.com/house/images/icon.gif); background-repeat: no-repeat; background-position: left -57px; }
+.choose dl dd .open a:hover{ background-position:left -68px; }
+.choose dl dd .black{ color:#000;}
+.choose dl dd .hui { color:#999;}
+.choose .xie{ position: absolute; right: 60px; top: 9px; *top: 7px;line-height: 24px; width:200px; color: #999; vertical-align: middle; height: 24px; }
+/*.choose .xie em { margin-right: 34px;}
+.choose .xie input    { height: 22px; width: 52px; border: 1px solid #DDDDDD; background-color: #FFF; text-indent: 13px; color: #999; line-height: 22px; vertical-align: middle; font-family: "微软雅黑"; font-size: 12px; }
+.choose .xie .sure { margin:1px 0 0 5px; height: 22px; position: absolute; top: 2px; right: 87px; display: block; padding: 0px; width: 52px; line-height: 22px; text-align: center; border: 1px solid #DDD; }*/
+.choose .quyu { position: relative; width: 1036px;border: 1px solid #CCC; padding-left: 10px;margin:5px auto 0;}
+.more-school{bottom: 0;right: 0;font-size: 12px;color: #666 !important;position: absolute;}
+.more-school:hover{color: #f33!important;}
+.sarr{top: -7px;position: absolute;width: 10px;height: 7px;background: url(images/sarr.png) no-repeat;left:525px;}
+.choose .quyu ol li   { float: left; padding-right: 4px; line-height: 32px; word-break:keep-all;}
+.choose .quyu ol li a   { display: inline; margin: 0px; padding: 0px; margin-right: 20px;float:left;}
+.choose .quyu ol li em   { margin-right:4px; color: #999; }
+.choose dl  dd.list{ margin:0;padding: 0;padding-bottom: 9px; border: none;  }
+.choose .list .quyu_area  { padding-top: 16px; }
+.choose .list .listbox  { height: 22px; width: 106px; margin-top: 10px; position: relative; line-height: 22px; float: left;  margin-right:6px;}
+.choose .list .listbox.duan{ width:78px;}
+.choose .listbox span   { margin-left: 4px; }
+.choose .listbox em   { background-image: url(http://img1.soufun.com/house/images/icon.gif); background-repeat: no-repeat; background-position: left bottom; display: block; height: 4px; width: 9px; position: absolute; top: 8px; right: 4px; }
+.choose .listbox ul  { position: absolute; width: 106px; left: -1px; top: 22px; border: 1px solid #DCDCDC; background-color: #FFF; }
+.choose .list .listbox.duan ul{width:74px;}
+.choose .listbox li  { line-height: 21px; color: #333333; display: block; float: none; padding-left: 5px; }
+.choose .listbox li:hover{ background-color:#F2F2F2; cursor:pointer;}
+.choose dl dd a:hover { color: #F33; text-decoration: underline; }
+.contentList dl dd .add { width: 334px; }
+.contentList dl dd .map { width: 76px;}
+.contentList dl dd .map cite{ margin-left:0; padding-left:0;}
+
+
+/* 条目工具条排序*/
+.contentTool { height: 30px; border-bottom: 2px solid #C00; margin-top: 28px; }
+
+.contenttwo{padding-top:26px;}
+.new-chang{ width:880px; height:32px; border-bottom:2px solid #cc0000; overflow: hidden;font-family: "Microsoft Yahei"; margin-top:-4px;}
+.new-chang h3{ font-size: 16px; float:left; font-weight: normal;}
+.new-chang h3 ul{}
+.new-chang h3 ul li{ float:left; height:32px;line-height: 32px; background-color: #f2f2f2; padding:0 12px;}
+.new-chang h3 ul li a{ display: block;height:32px; color:#333;}
+.new-chang h3 ul li a:link,.new-chang h3 ul li a:visited,.new-chang h3 ul li a:hover{ text-decoration: none; color:#333;}
+.new-chang h3 ul li.actived{background-color: #cc0000;}
+.new-chang h3 ul li.actived a{color:#fff;}
+.new-chang .new-changtwo{ overflow: hidden; height:25px; margin-top:6px; font-size:12px; float:right; text-align: center;}
+.new-chang .new-changtwo .new-changtwo-1{height:25px; line-height: 25px; margin-left:12px; color:#666666; float:right;}
+.new-chang .new-changtwo .new-changtwo-1 em{color:#cc0000}
+.new-chang .new-changtwo .new-changtwo-2{ float:right; height:23px; border:1px solid #dddddd; border-right:0; line-height: 25px;}
+.new-chang .new-changtwo .new-changtwo-2.specs-acl a{color:#cc0000;}
+.new-chang .new-changtwo .new-changtwo-2.specs-acl a em{color:#cc0000;}
+.new-chang .new-changtwo .new-changtwo-2.last-dd{border-right:1px solid #dddddd;}
+.new-chang .new-changtwo .new-changtwo-2 a{ display: block; color:#333; padding:0 12px; overflow: hidden;}
+.new-chang .new-changtwo .new-changtwo-2.specs-acl a:hover{background: none; color:#cc0000;}
+.new-chang .new-changtwo .new-changtwo-2 a em{ float:left; display: block;}
+.new-chang .new-changtwo .new-changtwo-2 a:link,.new-chang dl dd a:visited{ text-decoration: none; color:#333;}
+.new-chang .color-red{color:#cc0000;}
+
+/***************箭头向上灰色********************************/
+.new-chang .new-changtwo .new-changtwo-2 a b.two-dwn{background: url(http://img1.soufun.com/house/images/decration1.png) no-repeat 9px -26px;display:block;height: 23px;overflow: hidden;width: 18px; float:left;}
+/***************箭头向下灰色********************************/
+.new-chang .new-changtwo .new-changtwo-2 a b.two-up{background: url(http://img1.soufun.com/house/images/decration1.png) no-repeat 9px -72px;display:block;height: 23px;overflow: hidden;width: 18px; float:left;}
+
+/***************箭头向上红色和背景灰色文字红色********************************/
+.new-chang .new-changtwo .new-changtwo-2 a.clickbgc{background:#f2f2f2;color:#cc0000;}
+.new-chang .new-changtwo .new-changtwo-2 a.clickbgc em{color:#cc0000;}
+.new-chang .new-changtwo .new-changtwo-2 a.clickbgc b{background: url(http://img1.soufun.com/house/images/decration1.png) no-repeat 9px -1px;}
+
+/***************箭头向下红色和背景灰色文字红色********************************/
+.new-chang .new-changtwo .new-changtwo-2 a.clickbgc-up-clc{background:#f2f2f2;}
+.new-chang .new-changtwo .new-changtwo-2 a.clickbgc-up-clc b{background: url(http://img1.soufun.com/house/images/decration1.png) no-repeat 9px -51px;}
+.new-chang .new-changtwo .new-changtwo-2 a.clickbgc-up-clc em{color:#cc0000;}
+
+/***************鼠标滑过的样式********************************/
+.new-chang .new-changtwo .new-changtwo-2 a.clickbgc-up-clc:hover b.two-dwn{background: url(http://img1.soufun.com/house/images/decration1.png) no-repeat 9px -51px;}
+.new-chang .new-changtwo .new-changtwo-2 a.clickbgc:hover b.two-up{background: url(http://img1.soufun.com/house/images/decration1.png) no-repeat 9px -1px;}
+.new-chang .new-changtwo .new-changtwo-2 a:hover{background:#f2f2f2;color:#cc0000;}
+.new-chang .new-changtwo .new-changtwo-2 a:hover b.two-up{background: url(http://img1.soufun.com/house/images/decration1.png) no-repeat 9px -51px;}
+.new-chang .new-changtwo .new-changtwo-2 a:hover b.two-dwn{background: url(http://img1.soufun.com/house/images/decration1.png) no-repeat 9px -1px;}
+
+/* 条目 */
+.content { padding-top: 18px; }
+.content h3   { font-size: 16px; font-weight: bold; }
+.contentList { width: 880px; }
+.contentList dl {display: block; color: #333; }
+.contentList dl.huise{ background-color:#F2F2F2; }
+.contentList dl:hover{background-color:#FAFAFA;}
+.contentList dl dt, .contentList dl dd { float: left; }
+.contentList dl dt { padding-right: 25px; height: 112px; }
+.contentList dl dd { width: 650px; display: block; vertical-align: middle; }
+.contentList dd img{ vertical-align: bottom; margin-bottom: 4px; }
+.contentList cite { margin-left: 22px; margin-right: 5px; }
+.contentList h4 { line-height: 20px; }
+.contentList .pt08 { padding-top: 8px;}
+.contentList .pt04 { padding-top: 2px;}
+.contentList h4 a{ font-size: 18px; color: #333; line-height: 30px; }
+.contentList h4 span {color: #999;}
+.contentList dl h5{ height: 30px; line-height: 30px;*line-height:32px;}
+.contentList h5 span{ font-size: 28px; font-weight: bold; color: #cc0000;margin-right: 6px; }
+.contentList dd strong { font-size: 14px; color: #C00; }
+.contentList .fr { _width: 210px; _display: block; _text-align: right; }
+.contentList a { color: #333; }
+.contentList .pt04 a {   color: #999999; line-height: 20px; height: 20px;  margin-right: 5px;  }
+.contentList .jia a { color: #0B1735; }
+.contentList a:hover { color: #C00; text-decoration: underline; }
+.contentList .guanjianzi a{ display: block; float: left; border: 1px solid #DDDDDD; color: #999; line-height: 20px; height: 20px; padding-right: 5px; padding-left: 5px; margin-right: 5px; }
+
+.contentList .dakai a    { display: block; line-height: 24px; font-size: 14px; background-image: url(http://img1.soufun.com/house/images/dakai.jpg); background-repeat: no-repeat; background-position: left bottom; height: 24px; width: 106px; padding-left: 4px; }
+.contentList .dakai a:hover { text-decoration: none; }
+
+.contentList .dakai .shouqi { color: #C00; background-image: url(http://img1.soufun.com/house/images/dakai.jpg); background-repeat: no-repeat; background-position: left top; }
+.contentList dd strong { font-size: 14px; color: #C00; }
+.contentList h5 strong    { font-size: 16px; color: #666; margin-right: 10px; }
+.contentList h5 em{ font-size: 12px; color: #ccc; line-height: 16px; margin-right: 5px; display: inline;}
+.contentList .guwen   { margin-right: 12px; }
+
+/* 翻页 */
+.page { padding-top: 18px; }
+.page .fr{ _width:380px;}
+.page a { color: #333; display: block; float: left; height: 22px; width: 26px; border: 1px solid #CCC; line-height: 22px; text-align: center; margin-right: 5px; }
+.page .active,.page a:hover { color: #FFF; background-color: #C00; border: 1px solid #C00; text-decoration: none; }
+.page .next { width: 56px; }
+.page .last { width: 44px; }
+.page strong {color: #C00; }
+
+/* 新房 */
+.newHouse ul { padding-top: 30px; }
+.newHouse ul li { float: left; width: 190px; display: block; margin-right: 14px; margin-left: 14px; _margin-right: 12px;_margin-left: 12px; }
+.newHouse li div  { position: relative; width: 190px;height: 127px; }
+.newHouse li div cite { position: absolute; left: 0px; bottom: 0px; z-index: 100; margin: 0px; padding: 0px; }
+.newHouse li div cite a { color: #FFF; line-height: 35px; margin-left: 4px; }
+.newHouse li i{ font-style: normal;}
+.newHouse li div span{ background-color: #000; position: absolute; z-index: 10; height: 35px; width: 100%; left: 0px; bottom: 0px;filter:alpha(opacity=50);-moz-opacity:0.5;opacity:0.5;/*其他，透明度50%*/}
+.newHouse li p em { color: #D00; }
+.fangyuan_esf{ position:relative;}
+.newHouse li .yongjin{ width:64px; height:50px; position:absolute; right:0px; top:0px; background:url(http://img1.soufun.com/house/images/tuan.png) no-repeat; text-align:center; line-height:18px; padding-top:14px; font-size:14px; color:#cc0000;}
+.newHouse li .price{ height:22px; line-height:22px; font-size:14px;}
+.newHouse li .price .huxing{ display:inline-block; float:left; color:#333;}
+.newHouse li .price .jiage{ display:inline-block; float:right; margin-right:15px;color:#de3438; font-weight:bold; }
+
+
+/* 快速入口 */
+.rukou p { padding-top: 12px; padding-bottom: 30px; }
+.rukou p a { margin-right: 24px; color: #333; line-height: 12px; }
+.rukou p a:hover{ color:#c00;}
+/*快速入口下方区县楼盘与附近城市*/
+.keywords_nr {width:100%; overflow:hidden; padding-top: 10px;padding-bottom: 10px;} 
+.keywords_nr dl{margin:0px; padding:0px; line-height:30px;float:left; } 
+.keywords_nr dt{float:left;width: 90px; padding: 0px 10px 0px 0px; text-align: left; color:#666; } 
+.keywords_nr dt a{ color:#666;} 
+.keywords_nr dd {float:left; width:1070px;padding:0px 14px;word-wrap:break-word;word-break:normal;text-align:left;overflow:hidden;} 
+.keywords_nr dd a{float:left;display:inline-block;white-space:nowrap;margin-right:15px; color:#333;} 
+.title_style{ height:35px; line-height:35px; border-bottom:2px #ddd solid;} 
+.title_span{ font-size:16px; padding:0 5px 0 0; color:#000; border-bottom:2px #c00 solid; font-weight:bold; } 
+.title_style a{ color:#333; text-decoration:none;} 
+.keywords_nr dl a:hover { color: #c00; text-decoration: underline; }
+.tishi { padding:10px 18px 10px 18px;; border: 1px solid #CCC;border-bottom:none; }
+.tishi p { line-height: 18px; margin: 0px; padding: 0px; text-align: left; color: #333; }
+
+/* 右侧楼盘样式 */
+.contentHot { width: 300px; padding-bottom: 20px; }
+.hotTool { border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: #C00; height: 28px; }
+.hotTool a { color: #333333; line-height: 28px; }
+.hotTool a em { color: #CCCCCC; }
+.hotContent dl { border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #CCC; }
+.hotContent dl span { float: left; display: block; text-align: center; }
+.hotContent dl dt { border-bottom-width: 1px; border-bottom-style: dashed; border-bottom-color: #CCC; }
+.hotContent dl dt span { line-height: 32px; height: 32px; color: #999999; }
+.hotContent dl dt,.hotContent dl dd { overflow: hidden; }
+.hotContent dl .mc  { width: 114px; text-align: left; }
+.hotContent dl .jg { width: 100px; line-height: 33px;}
+.hotContent dl .lt { width: 50px; }
+.hotContent dl .db { width: 36px; }
+.hotContent dl dd a { color: #333; line-height: 33px; }
+.hotContent dl dd .db a { color: #CCC; }
+.hotContent dl dd.hover,.hotContent dl dd:hover { background-color: #F2F2F2; }
+.hot_con_left,.hot_con_right{ width:214px; height:33px; overflow:hidden;} 
+.hot_con_right{ width:86px;} 
+.hotContent dl dd .hot_con_left:hover a,.hotContent dl dd .hot_con_right:hover a{ color: #C00; text-decoration: underline; }
+.page .current{ color: #FFF; background-color: #C00; border: 1px solid #C00; text-decoration: none; }
+.all .moren .current { background-image: none; margin: 0px; padding: 0px; color: #FFF; display: block; height: 22px; width: 63px; background-color: #C00; border: 1px solid #C00; }
+/*新增select样式*/
+#selectbox .select_box{width:83px;height:25px;}
+#selectbox div.tag_select,#selectbox div.tag_select_hover,#selectbox div.tag_select_open{border:none;display:block;width:60px;height:25px;line-height:25px;font-size:12px;background:url(http://img.soufun.com/secondhouse/image/esfnew/fang/images/searchbj.gif) no-repeat 0 -102px;padding:0 20px 0 5px;}
+#selectbox div.tag_select_hover,#selectbox div.tag_select_open{background-position:0 -102px;}
+#selectbox ul.tag_options{ margin-top:-1px; mlist-style:none;border:1px solid #bdbdbd; border-top:none;width:81px;background:#fff;}
+#selectbox ul.tag_options li{display:block;padding:0;height:22px;text-decoration:none;line-height:22px;}
+#selectbox ul.tag_options li.open_hover{ background:#eee;}
+#selectbox ul.tag_options li.open_selected{ background:#none; color:#c00;}
+#selectpx .select_box{width:118px;height:25px;}
+#selectpx div.tag_select,#selectpx div.tag_select_hover,#selectpx div.tag_select_open{display:block;width:91px;height:25px;line-height:25px;font-size:12px;background:url(http://img.soufun.com/secondhouse/image/esfnew/fang/images/searchbj.gif) no-repeat 0 -50px;padding:0 20px 0 7px;}
+#selectpx div.tag_select_hover,#selectpx div.tag_select_open{background-position:0 -50px;}
+#selectpx ul.tag_options{ margin-top:-1px; mlist-style:none;border:1px solid #bdbdbd; border-top:none;width:116px;background:#fff;}
+#selectpx ul.tag_options li{display:block;width:100px;padding:0 8px;height:22px;text-decoration:none;line-height:22px;}
+#selectpx ul.tag_options li.open_hover{background:#eee;height:22px;line-height:22px; }
+#selectpx ul.tag_options li.open_selected{ background:#none; color:#c00;height:22px;line-height:22px; }
+/*zhuzhai-select*/
+#select_zhuzhai .select_box{width:96px;height:25px;}
+#select_zhuzhai div.tag_select,#select_zhuzhai div.tag_select_hover,#select_zhuzhai div.tag_select_open{display:block;width:73px;height:25px;line-height:25px;font-size:12px;background:url(http://img.soufun.com/secondhouse/image/esfnew/fang/images/searchbj.gif) no-repeat 0 -155px;padding:0 20px 0 7px;}
+#select_zhuzhai div.tag_select_hover,#select_zhuzhai div.tag_select_open{background-position:0 -155px;}
+#select_zhuzhai ul.tag_options{ margin-top:-1px; mlist-style:none;border:1px solid #bdbdbd; border-top:none;width:94px;background:#fff;}
+#select_zhuzhai ul.tag_options li{display:block;width:78px;padding:0 8px;height:22px;text-decoration:none;line-height:22px;}
+#select_zhuzhai ul.tag_options li.open_hover{background:#eee;}
+#select_zhuzhai ul.tag_options li.open_selected{ background:#none; }
+/*peitao*/
+.Pt{width:76px;height:25px;padding-left:7px;line-height:25px;background:url(http://img.soufun.com/secondhouse/image/esfnew/fang/images/searchbj.gif) 0 -102px no-repeat; cursor:pointer}
+.morePt{width:216px;padding:6px 0 0 8px; background:#fff; border:1px solid #ddd; font:12px/24px "宋体";overflow:hidden;z-index:999;position:absolute;left:-143px; top:23px}
+.morePt li{width:108px;height:24px;text-decoration:none;line-height:24px; float:left;}
+.morePt li input{ vertical-align:middle}
+.morePt li.fr{ float:right; margin:0 10px 10px 0;*margin:0 5px 0 0;_margin:0 5px 10px 0;text-align:right}
+/*finder20140213*/
+.finder{padding:11px 25px 10px; line-height:22px;background:#f9f9f9; border-top:1px solid #ddd}
+.finder a.term{ height:17px; margin:0 15px 10px 0; padding:0 22px 0 6px; color:#545454; line-height:17px;line-height:20px\9;_line-height:17px;background:#fff url(http://img.soufun.com/secondhouse/image/esfnew/search2014/images/icoCloseArrow.gif) right 0 no-repeat; border:1px solid #ffb180; display:inline-block; text-decoration:none;}
+.finder a.term:hover{ color:#666; background-position:right -17px;border:1px solid #ff6a0d;}
+/*finder20140213*/
+.finder{padding:11px 25px 10px; line-height:22px;background:#f9f9f9; border-top:1px solid #ddd}
+.finder a.term{ height:17px; margin:0 15px 10px 0; padding:0 22px 0 6px; color:#545454; line-height:17px;line-height:20px\9;_line-height:17px;background:#fff url(http://img.soufun.com/secondhouse/image/esfnew/search2014/images/icoCloseArrow.gif) right 0 no-repeat; border:1px solid #ffb180; display:inline-block; text-decoration:none;}
+.finder a.term:hover{ color:#666; background-position:right -17px;border:1px solid #ff6a0d;}
+.contentList .guanjianzi a:hover {display: block;float: left;border: 1px solid #EF3939;color: #c00;line-height: 20px;height: 20px;padding-right: 5px;padding-left: 5px;margin-right: 5px;text-decoration: NONE;}
+.bq_icon{ position:absolute; top:0; right:25px;}
+
+.ico_rm{width:18px; height:20px;background:url(http://img1.soufun.com/house/images/search201406/ssicon.png) no-repeat -78px -43px;display:block;position:absolute; top: 7px; left: -4px; }
+.searchlist .searchlist_right ul li a{ color:#c00 !important; text-decoration:none;} 
+.searchlist .searchlist_right a{ color:#c00 !important; text-decoration:none;} 
+.search_jieg{width:775px; margin:10px 0;padding:10px 39px 10px 65px;background: none;font-weight:bold;line-height:30px; border-bottom:1px dashed #ccc;border-top:none;}
+.search_jieg p a{color:#c00;text-decoration:none; padding:0 10px;}
+.con_pri {
+width: 42px;
+height: 22px;
+border: 1px solid #dcdcdc;
+padding-left: 16px;
+color: #666;
+line-height: 22px;
+}
+.con_sure { width: 53px; height: 24px;border: 1px solid #dcdcdc; display: block;  text-align: center; background: #fff; color: #666;line-height: 22px;margin-top:1px; }
+.con_sure:focus { noFocusLine: expression(this.onFocus=this.blur()); } 
+
+/*soufun_logo*/ 
+.soufun_logo{ width:298px; border:solid 1px #e5e5e5; } 
+.soufun_logo ul{ width:100%; padding-bottom:10px; } 
+.soufun_logo li{float:left; display:inline; width:75px; height:75px; margin:5px 5px 5px 15px;} 
+.soufun_logo li a{ display:block; width:75px; padding-top:62px; text-align:center; background:url(http://img1.soufun.com/house/images/soufun_logo.png) no-repeat; cursor:pointer; color:#333;position:relative;} 
+.listewm{ width: 104px; height: 138px; position:absolute; top: 83px; left: -15px; background:#fff;border:1px solid #ccc; text-align:center; z-index: 1000;} 
+.listewm img{ margin: 5px auto;} 
+.listewm p{ font-size:12px; line-height:16px;}
+.soufun_logo li a:hover{text-decoration:none; color:#c00;} 
+.soufun_logo .fang_logo a{background-position:10px 0px;} 
+.soufun_logo .zufang_logo a{background-position:-58px 0px;} 
+.soufun_logo .zxfang_logo a{background-position:-128px 0px;} 
+.soufun_logo .youfang_logo a{background-position:-197px 0px;} 
+.soufun_logo .fangbank_logo a{background-position:-266px 0px;} 
+.soufun_logo .tudifang_logo a{background-position:-336px 0px;}
+
+.w880{width:880px;}
+.fynum{float:right; height:30px; line-height:30px; font-size:12px; font-weight:bold;}
+.fynum span{color:#f00;}
+
+.contentList .guanjianzi a.newSc{height: 22px;line-height: 22px; text-align: center;background: #e04545; color:#FFF;border-radius:0;vertical-align:top;margin: 0; border:none; cursor: default;} 
+.contentList .guanjianzi a.scSerch{position:relative;height: 20px; line-height:20px;border:1px solid #DDD; border-left: none; padding:0 5px;vertical-align:top; margin: 0;} 
+.contentList .guanjianzi .upS{display: inline-block; line-height: 22px; border-left:1px solid #DDD; padding-left:5px;} 
+.sftitle{position: relative; z-index: 10000000;} 
+.scName{padding-right: 5px;} 
+.scContanner{ display:none; position: absolute; top:130px; left:483px; background: #FFF; border:1px solid #d9d5d5; border-bottom:none; overflow: hidden; z-index: 1000000;} 
+.scSort{border-bottom: 1px solid #d9d5d5; overflow: hidden;} 
+.sortName{width: 62px; float: left; padding-top: 11px; text-align: center;} 
+.scNames{float: left; padding-right: 11px;} 
+.scNames li{border-top:1px dashed #ccc; padding:8px 0; overflow: hidden;} 
+.scNames li:first{border-top:none;} 
+.sortPrompt{float: right; border: 1px solid #d3d3d3; width: 70px; height: 18px; line-height: 18px; text-align: center; color:#e04545; margin-left: 7px;} 
+.sslalone{position: relative;} 
+.contStyle{border-bottom:1px solid #dcdcdc; padding-bottom: 8px;} 
+.hotContentTit{height: 33px; line-height:33px; width: 290px; padding-left:10px; background: url("http://img1.soufun.com/house/images/titilog.gif") 0 12px no-repeat; border-bottom: 1px dashed #dfdfdf;} 
+.inSc{overflow: hidden; line-height: 19px; border-bottom: 1px dashed #dcdcdc; margin-top:15px; padding-bottom:10px;} 
+.scEx{float: left; margin-right: 10px; margin-bottom: 5px;width: 100px;} 
+.protBox{padding:3px 8px; border: 1px solid #DDD;display: inline-block; margin-top: 6px;} 
+.sildeDowns{width: 100%; height: 24px; line-height: 24px; background: #f2f2f2; text-align: center;margin-top: 5px;} 
+.fontRed{color:#e04545;} 
+.fontGray{color: #999;} 
+.pdt8{padding-top:8px;}
+.titlog {position: absolute;top: 0;left: 0;z-index: 1000;width:50px;}
+
+/*学区房指南*/
+.contStyle{border-bottom:1px solid #dcdcdc; padding-bottom:9px;} 
+.hotContentTit{height: 33px; line-height:33px; width: 290px; color:#333; border-bottom:none; padding-left:0px; background:none;}
+.hotContDetail,.hotContDetail1{line-height:20px; height:40px; width:100%; overflow:hidden; position:relative;}
+.hotContDetail .detailBtn,.hotContDetail1 .detailBtn{position:absolute; right:0;bottom:0px; color:#c00; background:#fff;}
+.hotContDetail1{ height:60px;}
+.scImgExp{float:left; margin-right:10px; margin-top:4px;} 
+.mgr10{margin-right:10px;}
+
+/*房源标签*/
+.contentList .guanjianzi span{ display: block; float: left; border: 1px solid #DDDDDD; color: #999; line-height: 20px; height: 20px; padding-right: 5px; padding-left: 5px; margin-right: 5px; }
+.hotTool_a_2015_7_8:hover{ text-decoration:none; cursor: default;}
+
+/*热评榜*/
+.hot_dp-add .gray_border-two{margin-bottom:22px; border-bottom:solid 1px #ccc !important;}
+.hot_dp-add .gray_border{border:none;}
+.lp_public{ height:34px; border-bottom:2px solid #c00; overflow:hidden;clear:both;}
+.lp_public .lpf_phblic_lf{ height:34px;}
+.lp_public .lpf_phblic_lf p{ font-size:16px; line-height:34px; color:#333; font-weight:bold;}
+.lp_public .lpf_phblic_lf p a{ color:#333; text-decoration:none;}
+.lp_public .lpf_phblic_rt { width:auto; font-size:14px; margin: 11px 3px 0 0; overflow:hidden;}
+.lp_public .lpf_phblic_rt a{ height:25px; line-height:25px; overflow:hidden; color:#333; padding-left:20px; text-decoration:none;  background:url(http://img1.soufun.com/house/images/xqy201410/icon_menu.gif) no-repeat; }
+.gray_border{  overflow:hidden; border-top:none; border-bottom: solid 1px #ccc;}
+/*hot_lpdp*/
+.hot_dp_nr{width:298px;overflow: hidden; }
+.hot_dp_nr li{float:left;width:100%;height:35px; line-height:35px;overflow: hidden; *zoom: 1;cursor:pointer;font-size:14px; margin-top:-1px;padding:0;}
+.hot_dp_nr li a{ display:block;cursor:pointer; text-decoration:none;}
+.hot_dp_nr li a:hover{ cursor:pointer;text-decoration:none;}
+.hot_dp_nr li  a:hover span.rt{ color:#c00;}
+.hot_dp_nr li .num, .hot_dp_nr li .num_gray{ float: left; margin:10px 7px 0 5px; width:16px; height: 16px; line-height: 16px; background:#c00; text-align:center; color:#fff; font-size:12px;}
+.hot_dp_nr li .num_gray{ background:#d2d2d2;}
+.hot_dp_nr li .tit{ float: left;width:125px; color:#333; white-space:nowrap; overflow: hidden; text-overflow:ellipsis;}
+.hot_dp_nr li .prc{ float: left; width:110px; white-space:nowrap; overflow: hidden; text-overflow:ellipsis;}
+.hot_dp_nr li .rtb{ float: right;width:70px;color:#999; font-size:12px; text-align:left;}
+.hot_dp_nr li .rta{width:54px}
+.hot_dp_nr li .rta.dn{padding-right:10px;background:url(../images/newgif.gif) no-repeat right -339px; color:#090;}
+.hot_dp_nr li .rta.up{padding-right:10px;background:url(../images/newgif.gif) no-repeat 56px -341px; color:#c00;}
+.hot_dp_nr li .news{float:left;width:235px;padding-right:5px;}
+.dping { float:left;overflow:hidden;padding-top:11px;}
+.dping i {float:left;width:12px;height:12px;line-height:12px;margin-right:2px;display:inline; font-style:normal;text-indent:-9000px;}
+.dping i.no1{background: url(http://img1.soufun.com/house/images/dplist201501/dping.gif) 0px 0px no-repeat;}
+.dping i.no2{background: url(http://img1.soufun.com/house/images/dplist201501/dping.gif) 0px -17px no-repeat;}
+.dping i.no3{background: url(http://img1.soufun.com/house/images/dplist201501/dping.gif) 0px -34px no-repeat;}
+/*20150721新增*/
+.red_box{ width:60px; height:35px; background:url(http://img1.soufun.com/house/images/hongbao201507/red_box.png) no-repeat; position:absolute; top:20px; right:250px;}
+.red_box p{ text-align:center; font-size:14px; color:#ffe92c; margin-top: 17px; line-height: 16px; height: 16px;}
+.by_v{ height:16px; width:16px; display:inline-block; background:url(http://img1.soufun.com/house/images/v1.png) no-repeat; margin-left:5px; vertical-align:middle;}
+/********** 免责声明 lx ********************************************************************************************/
+.disclaimer{width:1160px;line-height:20px;margin:10px auto 8px auto;padding:15px 20px;background:#eee;}

@@ -1,0 +1,107 @@
+@charset "gb2312";
+/* CSS Document */
+a{ text-decoration:none !important;}
+.contentListf{ width:880px;}
+.dis{ display:none;}
+.nhouse_list_nav{ width:878px; height:40px; line-height:40px; border:1px solid #ccc; background-color:#fff;  z-index:998; background:#fbfbfb;}
+.nhouse_list_nav li{ float:left; height:38px; line-height:38px; padding:0 20px; font-size:14px; cursor:pointer; border-bottom:1px solid #ccc; border-right:1px solid #ccc; border-top:2px solid #fff; border-bottom:1px solid #ccc;}
+.nhouse_list_nav li span{ margin-right:5px;}
+.nhouse_list_nav li.on,.nhouse_list_nav li:hover{  border-top:2px solid #c00;  position:relative; border-bottom:1px solid #fff; background:#fff;}
+.nhouse_list_nav li.on span{ color:#f33;}
+.shaixuan{ width:878px;border:1px solid #ccc; border-top:none; height:35px; line-height:35px; font-size:12px; cursor:pointer; background-color:#fff; z-index:998; }
+.shaixuan li{ float:left; padding:0 20px; position:relative; z-index:0; color:#333; font-weight:bold;}
+.shaixuan li>div{ position:absolute; top:11px; right:7px;}
+.shaixuan li span.on,.shaixuan li.on,.shaixuan li:hover{ color:#f33;}
+.sanjiao-down, .sanjiao-downf, .sanjiao-top, .sanjiao-topf{ display:block; background:url(http://img1.soufun.com/house/images/newstyle/sanjiao_icon.png) no-repeat;}
+.sanjiao-down { background-position: -0px -0px; width: 8px; height: 7px; }
+.sanjiao-downf { background-position: -8px -0px; width: 8px; height: 6px; }
+.sanjiao-top { background-position: -8px -6px; width: 8px; height: 6px; }
+.sanjiao-topf { background-position: -0px -7px; width: 8px; height: 6px; }
+.shaixuan li.xuanze{ float:right;}
+.shaixuan li.xuanze input{ position:relative; top:2px; *top:0px; margin-right:5px; }
+
+.nl_con>ul>li{ padding:20px 0 15px 0; border-bottom:1px solid #f2f2f2; }
+.nl_con>ul>li:hover{ background-color:#fafafa;}
+.nlc_details{ width:680px; float:left; position:relative; }
+.nlc_img{ float:left; position: relative; margin-right:30px;}
+.small_img{width: 168px;height:57px; position:absolute; left:0; bottom:0; background:url(http://img1.soufun.com/house/images/newstyle/bg.png) repeat-x center bottom;}
+.si_con{  margin:30px 0 0 10px; color:#fff; height:16px; line-height:21px; }
+.ico_imgf,.ico_playf{ display:inline-block; width:16px; height:16px; background:url(http://img1.soufun.com/house/images/search201406/ssicon.png) no-repeat 0 -41px; vertical-align:-3px; margin-right:5px; }
+.house_value{ height:30px; line-height:30px;}
+.nlcd_name{ float:left; max-width:290px; margin-right:20px; font-size:16px; color:#333; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.nlcd_name a:hover{ color:#f33;}
+.star_group{ float:left; margin-right:10px; margin-top:10px;}
+.star_group li{ float:left;}
+.gray-star, .half-star, .orange-star{ background:url(http://img1.soufun.com/house/images/newstyle/star_icon.png) no-repeat;}
+.gray-star{ background-position: -0px -0px; width: 13px; height: 12px; }
+.half-star{ background-position: -0px -12px; width: 13px; height: 12px; }
+.orange-star{ background-position: -0px -24px; width: 13px; height: 12px; }
+.nlc_details .value_num{ float:left; font-size:12px; color:#999;}
+.nlc_details .value_num:hover{ color:#f33;}
+
+
+
+.house_type{ width: 300px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; height:30px; line-height:30px; font-size:12px; color:#999; position:relative;}
+.house_type a{ height:30px; line-height:30px; color:#999; margin-right:8px;}
+.house_type a:hover{ color:#f33;}
+.house_type a em{color: #999;}
+.hongbao{ position:absolute; left:300px; top:30px;}
+.hongbao a{ color:#f33; overflow: hidden;}
+.hongbao a img{ float:left; margin-right:8px; position:relative; top:2px;}
+.hongbao_d{ display:block; float:left;height: 24px;line-height: 24px;}
+.relative_message{  height:30px; line-height:30px;  }
+.address{ float:left; width:270px; font-size:12px; color:#999;overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.address a{ color:#999;}
+.slogan{ height:30px; line-height:30px; font-size:16px; color:#f33;}
+.tel{ float:right; min-width:190px;}
+.tel>p{ float:left; font-size:14px; font-weight:bold; color:#666;}
+.tel>p>span{ font-size:12px; padding: 0 3px;}
+
+.tel>em{  float:left; width:16px; height:16px; margin-right:3px; background:url(../img/tel.png) no-repeat; position:relative; top:7px;}
+.nhouse_price{ height:45px; line-height:45px; position:absolute; right:15px; top:5px; z-index:1;}
+.nhouse_price>span{ font-size:30px; font-weight:bold; color:#cf0000; display:inline-block;}
+.nhouse_price>em{ margin-left:4px; font-size:12px; color: #999; position:relative;display:inline-block; font-style:normal; position:relative; top:-2px;}
+.honglou{ color:#333;}
+
+.notice{ display:none; position:absolute; top:91px;; right:13px; cursor:pointer;}
+.notice>div{ height:30px; line-height:30px; float:left; font-size:12px; color:#999;}
+.duibi>em,.guanzhu>em,.scheart{ display:block;background:url(http://img1.soufun.com/house/images/newstyle/notice_icon.png) no-repeat;}
+.duibi>em { background-position: -0px -0px; width: 16px; height: 16px; position:relative; top:7px;  }
+.duibi>em.on,.duibi>em:hover{ background-position: -0px -16px; width: 16px; height: 16px; position:relative; top:7px; }
+.guanzhu>em ,.scheart{ background-position: -0px -32px; width: 14px; height: 12px; position:relative; top:9px; }
+.guanzhu>em.on,.guanzhu>em:hover,.scheart { background-position: -0px -44px; width: 14px; height: 12px; position:relative; top:9px; }
+.notice>div>span{ float:left; margin-left:7px;}
+.notice>div>em{ float:left;}
+.guanzhu{ margin-right:20px;}
+.fangyuan{ margin-top:7px;}
+.fangyuan a {display:block; float:left;border:1px solid #DDDDDD;color:#999;line-height:20px; height:20px;padding-right:5px;padding-left:5px;margin-right:5px;}
+.fangyuan a:hover {border:1px solid #f33; color:#f33; text-decoration:none;}
+
+.hot_house{ height:14px; line-height:14px; display:block; margin-top:20px; margin-left:10px;}
+.hh_title{ float:left; font-size:14px; font-weight:bold; color:#666;}
+.hot_house span{ float:left; display:block; padding:0 23px; font-size:14px; color:#999;}
+.yuyue{ float:right; width:67px; height:22px; text-align:center; line-height:22px; margin-right:10px; border:1px solid #f33; border-radius:5px; font-size:12px; color:#f33;}
+.hot_house:hover .hh_title{ color:#f33;}
+.hot_house:hover span{ color:#f33;}
+.fangyuan a.newSc{height: 22px;line-height: 22px; text-align: center;background: #e04545; color:#FFF;border-radius:0;vertical-align:top;margin: 0; border:none; cursor: default;}
+
+/*Ë«11¸Ä°æ*/
+.hb_list_1111{ position:relative;}
+.max_hb{ height:30px; line-height:30px; text-align:center; color:#fff;background:rgba(0,0,0,0.6); position:absolute; bottom:4px; width:100%; font-size:14px;}
+.qiangfj{ height:50px; width:130px; float:left; margin-top:-20px;}
+.nlcd_name11_11{ font-size:18px; color:#000;}
+.by_lingqu{ display:inline-block; height:16px; line-height:16px; font-size:12px; color:#999; margin:15px 0 20px 0;}
+.hb_tubiao{ height:26px; width:500px; line-height:26px; font-size:0; vertical-align:middle;}
+.hb_tubiao img{ float:left;}
+.hb_tubiao a{ display:inline-block; height:26px; line-height:26px; font-size:16px; color:#e5262c; float:left; margin-left:10px;}
+.chakan{ height:28px; width:130px; position:absolute; right:15px; top:40px;}
+
+/*ÍÆ¹ã*/
+.tuiguang{ width:34px; height:22px; background:#f33; line-height:22px; text-align:center; color:#fff; position:absolute; top:0; left:0; border-bottom-right-radius: 6px;}
+
+/*.hb_tubiao {font-size: 0;height: 28px;line-height: 28px;vertical-align: middle;width: 500px;}
+.nlcd_name{position: relative; overflow: visible;}
+.hongbar a{width: 127px; height: 30px; background: url(http://img1.soufun.com/house/images/newstyle/hongbaobar.png) no-repeat; position: absolute; right: -140px; top: 0px; cursor: pointer;}*/
+
+
+

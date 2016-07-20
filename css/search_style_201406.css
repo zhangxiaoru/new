@@ -1,0 +1,279 @@
+@charset "gb2312";
+/*区域查询 */
+.t_icon{width:16px; height:16px; background:url(http://img1.soufun.com/house/images/search201406/ssicon.png) no-repeat; display:block;}
+.ctbg{background-image:url(http://img1.soufun.com/house/detail_php/images2/channeltitlebg.gif);background-repeat:repeat-x;}
+.quicksearch{width:1000px;margin:2px auto 0;overflow:hidden;} 
+.qstitle{height:34px;background-position:0 0;}
+.qstitle li{cursor:pointer;float:left;height:32px;line-height:32px;font-size:14px;overflow:hidden; -webkit-border-radius:2px 2px 0 0;-moz-border-radius:2px 2px 0 0;border-radius:2px 2px 0 0;} 
+.qston{background:#fff;padding:0 33px;border-style:solid;border-color:#c00  #eee #fff ;border-width:2px 1px 1px	;font-weight:bold; color:#05b;}
+.qstitle li.qstoff{padding:0 15px; height:28px; line-height:28px; border:1px solid #eee; border-bottom:none;  margin:4px 0 0 0;}
+.qscomment{width:980px;padding:10px 9px;border:#eee 1px solid;border-top:0;}
+/*已选条件*/
+.qscomment .conditions{width:980px;overflow:hidden;border-bottom:1px dashed #c9c8c3; padding-bottom:10px;}
+.qscomment .conditions span{width:50px;color:#333; display:block;overflow:hidden;}
+.qscomment .conditions .con_tj{height:auto;overflow:hidden;}
+.qscomment .conditions .con_tj ul li{float:left;margin-left:10px;padding: 0px 8px; border:dashed 1px #f60;display:block; overflow:hidden;}
+.qscomment .conditions .con_tj ul li a{color:#f60;  text-decoration:none;}
+.qscomment .conditions .con_tj ul li img{ float:left;}
+.ico_cs { width:11px; height:11px; background:url(http://img1.soufun.com/house/images/search201406/ssicon.png) no-repeat -12px -15px; margin:6px 0 0 5px; overflow:hidden; }
+.ico_cs:hover { background-position:-23px -15px; }
+/*功能条件*/
+.qscomment .conditions .con_gn{height:auto; float:right;overflow:hidden;} 
+.qscomment .conditions .con_gn ul li{color:#333;float:left; line-height:18px; margin-left:5px;}
+.qscomment .conditions .con_gn ul .baoc .t_icon{background-position:-59px -12px;}
+.qscomment .conditions .con_gn ul .qingk .t_icon{background-position:-106px -12px;}
+/*更多*/
+.con_more{ border:solid 1px #dcdcdc; height:22px;display:block;overflow:hidden; }
+.con_more span{padding: 0px 7px;}
+.con_more span .t_icon{ background-position:-139px -9px; width: 22px; height:18px; position:absolute;display: inline-block;}
+/*价格范围*/
+.con_pri{width:31px;height:22px; border:1px solid #dcdcdc; padding-left:20px; color:#666;line-height:22px;}
+.con_sure{width:53px;height:24px; border:1px solid #dcdcdc; text-align:center; background:#fff;color:#666; line-height:22px; }
+/*其他*/
+#selectbox .select_box{float:left;margin-right:5px;z-index:100;}
+#selectbox div.tag_select,#selectbox div.tag_select_hover,#selectbox div.tag_select_open{display:block;width:106px;height:20px;line-height:20px;background:url(http://img1.soufun.com/house/images/search201406/selcbg_b.png) right -1px no-repeat;text-indent:4px;cursor:default;color:#333;cursor:pointer; border:1px solid #cecece;}
+#selectbox div.tag_select_hover,#selectbox div.tag_select_open{background:url(http://img1.soufun.com/house/images/search201406/selcbg_b.png) no-repeat right bottom;}
+#selectbox ul.tag_options{background:#fff; border:1px solid #B9C0DC;width:102px; padding:2px;}
+#selectbox ul.tag_options li{height:23px; line-height:23px;width:100%;padding:3px 0; text-indent:12px;cursor:default;color:#666; margin-top:1px;}
+#selectbox ul.tag_options li.open_hover{height:23px; line-height:23px;background:#dedede;color:#000;}
+#selectbox ul.tag_options li.open_selected{background:#dedede;color:#000;}
+/*地铁详情*/
+.subway{width:825px; height:auto;padding: 5px;border:solid 1px #f8b551;}
+.subway a{white-space:nowrap; margin-right:10px !important;}
+/*区域 类型 价格 */
+.qscomment .con_nr{width:980px;overflow:hidden;border-bottom:1px dashed #c9c8c3;padding:10px 0;}
+.qscomment .con_nr .con_cy{width:840px; height:auto;}
+.qscomment .con_nr .con_cy a{color:#0055bb; margin-right:15px;display: inline-block;font-family:"\5FAE\8F6F\96C5\9ED1",微软雅黑,"Microsoft Yahei",雅黑\9,Arial;}
+.qscomment .con_nr .con_cy a:hover{color:#c00;}
+/*全部户型*/
+.slideTxtBox{ width:1000px; clear:both; overflow:hidden; }
+.slideTxtBox .hd{ width:100%; height:35px; background:url(http://img1.soufun.com/house/images/search201406/scrpx.gif) repeat-x 0 0; overflow:hidden; position:relative; }
+.slideTxtBox .hd ul{ float:left; display:inline; }
+.slideTxtBox .hd ul li{ float:left; display:inline; height:32px; font-size:14px; line-height:32px; padding:0 25px; border:solid 1px #cbcbcb; border-bottom:2px solid #c00; }
+.slideTxtBox .hd ul li.on{ font-weight:bold; border-bottom:2px solid #fff; }
+.slideTxtBox .hd ul li a { text-decoration:none;}
+.only_ckb { margin:5px 0 0 15px;}
+.only_ckb label { display:inline-block; vertical-align:middle; height:15px; line-height:15px;}
+.only_checkbox { display:inline-block; width:13px; height:13px; padding:0; margin-right:3px; vertical-align:middle; }
+.cs_style { margin:5px 0 0 0; }
+.csbar { display:inline-block; padding:0 8px; height:22px;line-height:22px; border:1px solid #afafaf; cursor:pointer;  }
+.csbar.current { background:#ebebeb; }
+.ico_pxtop,.ico_pxbot { width:9px; height:10px; background:url(http://img1.soufun.com/house/images/search201406/ssicon.png) no-repeat 0 -29px; margin:6px 0 0 5px; overflow:hidden; }
+.ico_pxbot { background-position:-10px -29px; }
+.scmain_lf { width:730px; float:left; display:inline; }
+/* 2011-12-16添加广告列表 */
+.adlist_bg{overflow:hidden;padding:5px 10px;background:#fffed0 repeat;width:710px; height:68px; }
+.adlist_bg .leftbox{float:left;width:340px;overflow:hidden;background:url(http://img1.soufun.com/house/detail_php/gg/listad_genline.gif) repeat-y right;padding-right:15px;}
+.adlist_bg .listad{float:left;width:265px;overflow:hidden;height:68px;}
+.adlist_bg .listad h1{overflow:hidden;height:24px;line-height:24px;font-weight:bold;font-size:15px;}
+.adlist_bg .listad ul{overflow:hidden;height:44px;line-height:22px;margin:1px 0;}
+.adlist_bg .listadr ul{overflow:hidden;font-size:14px;line-height:22px;margin:1px 0;}
+.adlist_bg .listad ul li{overflow:hidden;height:22px;line-height:22px;}
+.adlist_bg .listad ul li .forange{color:#FF6600;font-weight:bold;font-size:14px;}
+.adlist_bg .more{float:right;overflow:hidden;width:70px;text-align:right;}
+.adlist_bg .more .tglink{line-height:20px;height:20px;color:#bbb;margin-bottom:24px;}
+.adlist_bg .more .tglink a, .adlist_bg .more .tglink a:hover{color:#bbb;}
+.adlist_bg .more .lookmap{padding-left:16px;color:#1945ae;background:url(http://img1.soufun.com/house/detail_php/gg/lookmapicon.gif) no-repeat 0 3px;line-height:24px;height:24px;width:54px; }
+.adlist_bg .more .lookmap a, .adlist_bg .more .lookmap a:hover{color:#1945ae}
+.adlist_bg .rightbox{ margin-left:0;float:right;width:340px;overflow:hidden;height:68px; }
+.adlist_bg .adlisttxt{overflow:hidden;height:68px; line-height:16px;margin:1px 0; }
+.adlist_bg .adlisttxt li{overflow:hidden;height:22px;line-height:22px;padding-left:10px;background:url(http://img1.soufun.com/house/detail_php/gg/adlistpoint.gif) no-repeat 0 9px;}
+/*搜索列表*/
+.sclist li { width:730px; height:136px; padding:24px 0 0; border-bottom:1px dashed #ddd; position:relative; }
+.sclist li.current { background:#f5f5f5; }
+.sclist_img { position:relative; width:168px; height:112px; overflow:hidden; }
+.infbg {width: 168px;height:57px; position:absolute; left:0; bottom:0; background:url(http://img1.soufun.com/house/detail_php/images/png24bg2.png) repeat-x center bottom;}
+.infbg_con { margin:30px 0 0 10px; color:#fff; height:16px; line-height:21px;  }
+.infbg_con a { color:#fff; }
+.ico_img,.ico_play { display:inline-block; width:16px; height:16px; background:url(http://img1.soufun.com/house/images/search201406/ssicon.png) no-repeat 0 -41px; vertical-align:-3px; margin-right:5px; }
+.ico_play { background-position:-17px -41px; }
+.ico_v3d{background:url(http://img1.soufun.com/house/images/tubiao_3d.png) no-repeat;margin-left:10px; width:16px; height:16px;margin-right:5px; vertical-align: -3px;}
+.sclist_con{ width:360px;}
+.sclist_con p { height:auto; line-height:22px;}
+.sclist_con_h2 { color:#999; }
+.sclist_con_h2 h2 { float:left; display:inline; font-size:18px; margin-right:15px;}
+.sclist_con_h2 h2 a { color:#333; }
+.ico_map { display:inline-block;width:11px;height:15px; background:url(http://img1.soufun.com/house/images/search201406/ssicon.png) no-repeat -34px -41px; overflow:hidden; position:relative; bottom:-3px; }
+.sf_status { margin-top:5px; }
+.sf_status a { display:inline-block; height:20px; line-height:20px; padding:0 5px; color:#999;  border:1px solid #ddd; margin-right:5px; }
+.sf_status a:hover { border:1px solid #c00; text-decoration:none; }
+.adrpr { position:relative; top:14px; }
+.sclist_ri { position:absolute; top:24px;_top:20px; right:0; text-align:right; }
+.nsclist_ri {position:absolute; _top:10px;*top:15px;right:0;  overflow:hidden;text-align:right; }
+.prmt35 { margin-top:35px; _margin-top:40px; }
+.prmt15{ margin-top:5px;_margin-top:15px;*margin-top:15px; }
+.scpri { font-size:28px; font-weight:bold; color:#c00; position:relative; bottom:-5px;display:inline-block;}
+.scpri1 { font-size:14px; font-weight:bold; color:#c00; position:relative; }
+.adbox { float:right; width:45px; height:20px; cursor:pointer; overflow:hidden; }
+.ico_ad,.ico_share { float:left; width:16px; height:16px; background:url(http://img1.soufun.com/house/images/search201406/ssicon.png) no-repeat -47px -41px; margin:2px 0 0 0; }
+.ico_share { background-position:-63px -41px;  }
+.hx_xs{ border:solid 1px #e2e2e2; height:22px; background:#fff; display:inline-block; } 
+.hx_xs span{padding: 0px 15px 0 10px; text-align:left; background:url(http://img1.soufun.com/house/images/search201406/sanjiao.gif) no-repeat 90px 7px;}
+/*page css*/
+.sfpage { width:100%; height:25px; overflow:hidden; }
+.sfpage a { display:inline-block; height:22px; padding:0 10px; border:1px solid #ccc; margin-left:5px; float:left;}
+.sfpage a.current { background:#ccc; color:#fff;  }
+.sfpage a:hover { text-decoration:none; }
+/*right*/
+.nhtit { height:32px; line-height:32px; border-bottom:2px solid #c00;  }
+.nhbox { border:1px solid #ebebeb; border-top:none 0; overflow:hidden; zoom:1; }
+.houselist_table { border-collapse:collapse; width:100%; border:1px solid #f0f0f0; }
+.houselist_table th { background:#f7f7f7; height:34px;text-align:center; }
+.houselist_table td { height:28px; text-align:center; }
+.houselist_table .pl10 { text-align:left;}
+.mlike_hs dd { position:relative; margin-top:20px; }
+.mlike_hs_p,.mlike_hs_p a{ color:#fff; font-weight:bold; height:20px; line-height:20px; }
+.mlike_hs_p_at,.mlike_hs_p_at a { color:#fc3;  height:20px; line-height:20px;}
+.hot_lplist { position:relative; }
+.w156{width:156px;}
+.w168{width:168px;}
+.hot_lplist li {height:198px; float:left; margin:20px 0 0 26px; display:inline; overflow:hidden; }
+.hot_lplist li p { display:block; height:22px; line-height:22px; overflow:hidden; }
+.hot_lplist li p strong { float:left; display:inline; height:22px; overflow:hidden; }
+.bottom_search { width:630px; margin:30px auto 40px; }
+.bottom_search_text { width:526px; height:28px; line-height:28px; background:#fff; border:2px solid #007dbd; color:#999; padding-left:10px; overflow:hidden; }
+.bottom_search_btn { width:80px; height:32px; background:#007dbd; color:#fff; text-align:center; font-size:14px; border:none; cursor:pointer; }
+.bottom_search_btn:hover { background:#0072ac; }
+/*淘房帮购房特惠*/
+.kuangAd{width:250px;height:240px;overflow:hidden;}
+.tfbgfth_list li { clear:both; float:left; display:inline; width:235px; margin:10px 0 0 10px; overflow:hidden; }
+.tfbgfth_list_img,.tfbgfth_list_con { float:left; display:inline; }
+.tfbgfth_list_con { margin:1px 0 0 7px; width:160px; overflow:hidden; }
+.tfbgfth_list_con p { width:160px; line-height:21px; height:21px; overflow:hidden;}
+.tfbgfth_list_news { width:235px; margin:10px 0 0 10px; overflow:hidden; clear:both; }
+.tfbgfth_list_news li { line-height:21px; height:21px; width:235px; float:left; overflow:hidden; clear:both; }
+.tfbgfth_list_news li a { margin-right:3px;}
+/*最新/热门楼盘*/
+.premises{padding:0 6px;overflow:hidden;}
+.pretitle{height:28px;line-height:28px;border-bottom:#bfbfbf 1px dotted;overflow:hidden;color: #808080;}
+.precomment{margin-top:8px;overflow:hidden;}
+.precomment li{float:left;width:236px;height:28px;line-height:28px;overflow:hidden;}
+.precomment li div,.pretitle span{display:inline;float:left;overflow:hidden;}
+.prered{color:#c00;}
+.prew1{width:102px;}
+.prew2{width:40px;}
+.prew3{width:60px;text-align:center;}
+.prew4{width:30px;text-align:right;}
+/*排行榜*/
+.zhoubian1{width:248px;height:auto;border:1px solid #acd2e9;}
+.pinglun1top{width:243px;height:22px;line-height:22px;padding-left:5px;background:url(http://img1.soufun.com/house/detail_new/images/dianping01.gif) repeat-x;border-bottom:1px solid #c7ccd3;}
+.zi12,.zi12 a{color:#049;}
+.huxingdianping{float:right;margin-right:5px;}
+.zhoubian03{width:248px; padding: 5px 10px;}
+.zhoubian03top{height:26px;line-height:26px;background:#eee;font-weight:bold;}
+.zhoubian03_right{width:50px;height:21px;color:#f00;text-align:right;}
+.zhoubian03 table{width:235px;margin:5px 0 0 7px;}
+.zhoubian03 table td{height:22px;line-height:22px;}
+/*小搜索2011.3.29 input*/
+.search_input{width:240px;}
+.search_input .inp2{float:left;width:2px;height:22px;background:url(http://img1.soufun.com/house/detail_php/images/searchbj.gif) no-repeat right 0px;position:absolute;top:0px;right:-1px;}
+.search_input .inp1{float:left;height:22px;position:relative;}
+.search_input .inp1 input{float:left;height:22px;line-height:22px;width:108px;padding-left:7px;overflow:hidden;background:url(http://img1.soufun.com/house/detail_php/images/searchbj.gif) repeat-x 0px 0px;font-size:12px;color:#888;border:0px;}
+.search_input span .button1{float:left;width:50px;height:22px;line-height:22px;border:0px;cursor:pointer;background:url(http://img1.soufun.com/house/detail_php/images/searchbj2.gif) no-repeat -72px 0;margin-left:5px;}
+.search_input span .button2{float:left;width:50px;height:22px;line-height:22px;border:0px;cursor:pointer;background:url(http://img1.soufun.com/house/detail_php/images/searchbj2.gif) no-repeat -72px -24px;margin-left:4px;}
+/*快速入口*/
+.ksrk{width:930px;height:28px;line-height:28px;background:#fff;border:#ccc 1px solid;padding:0 14px;margin:15px auto 0;overflow:hidden;}
+.ksrk a{margin-left:8px;}
+/*旧版 你感兴趣的楼盘*/
+.dtbkcom{width:720px;padding:10px 8px;overflow:hidden;}
+.dtbkcom li{display:inline;float:left;width:172px;margin:0 4px;overflow:hidden;}
+.dcimg{width:156px;height:117px;border:#dfe1e0 1px solid; overflow:hidden; position:relative;}
+.houseImg { width:156px; height:117px; border:0;overflow:hidden;}
+.dctxt01{height:25px;line-height:25px;font-weight:bold;font-size:14px;overflow:hidden;}
+.dctxt02,.dctxt03{height:20px;line-height:20px;overflow:hidden;}
+.dctxt02{color:#e26200;}
+.dctxt03,.dctxt03 a{color:#2A4886!important;}
+.pa_rt { position:absolute; right:0; top:0; }
+.btn_kft,.btn_dz { float:left; display:inline;  height:19px; line-height:19px; text-align:center; color:#fff; font:12px "微软雅黑"; overflow:hidden; }
+.btn_kft a,.btn_dz a{color:#ffffff!important;}
+.btn_kft { background:url(http://img1.soufun.com/house/detail_php/images/housedetail/btn_kft.jpg) no-repeat 0 0; width:58px; margin-right:6px; }
+.btn_dz { background:url(http://img1.soufun.com/house/detail_php/images/housedetail/btn_dz.jpg) no-repeat 0 0; width:78px; }
+.snblue,a.snblue,a.snblue:visited{color:#333;}
+a.snblue:hover{color:#c00;}
+.dtbktit li { float:left; display:inline;padding:0 14px; cursor:pointer; overflow:hidden; }
+.dtbktit li.on { background:#fff;border-right:#ACD2E9 1px solid;border-left:#ACD2E9 1px solid;font-weight:bold; }
+/*楼盘小广告/文字/图片推广*/
+.searchTxtLink {margin-top:10px;padding-left:10px;}/*2008.10.10 daiwei*/
+.sadver li{float:left;height:22px;line-height:22px;overflow:hidden;padding-right:2px;	width:136px;}
+.sadver li a:link, .sadver li a:visited{text-decoration:none;}
+/*key detail*/
+.key_detail{width:1000px; background:#eee;}
+.key_detail p{color:#333; line-height:22px; text-indent:2em; padding:10px 15px;}
+
+.qscomment .conditions .con_gn ul .baoc p a{color:#999;} 
+.qscomment .conditions .con_gn ul .baoc p a:hover{color:#f33;text-decoration:none;}
+/*搜索失败 */ 
+.searchlist{ height:auto;padding:20px; border-top:1px dashed #ccc;} 
+.searchlist .searchlist_right a{color:#06c !important; text-decoration:none;} 
+.searchlist .searchlist_right ul li{float:left; margin-right:15px;} 
+.searchlist .searchlist_right ul li a{color:#f60 !important; text-decoration:none;} 
+.searchlist .searchlist_right a:hover{ text-decoration:underline;} 
+/*搜索成功 */ 
+.search_jieg{width:635px;margin:10px 0;padding:10px 39px 10px 65px;background:url(http://img1.soufun.com/house/detail_php/images/search_tu.jpg) no-repeat 25px 12px;font-size:15px;font-weight:bold;line-height:30px; border-bottom:1px dashed #ccc;border-top:1px dashed #ccc;} 
+.search_jieg p{display:block; margin-left:10px;} 
+.search_jieg p a{color:#f60;text-decoration:none; padding:0 10px;} 
+.search_jieg p a:hover{ text-decoration:underline;}
+
+.nonesearch{width:635px;margin:10px 0;padding:10px 20px 10px 80px;background:url(http://img1.soufun.com/house/detail_php/images/icon110301.gif) no-repeat 20px 0;font-size:14px;font-weight:bold;line-height:30px; border-bottom:1px dashed #ccc;}
+.nonesearch span,.nonesearch span a:link,.nonesearch span a:visited{color:#f00;}
+.nonesearch strong,.nonesearch strong a:link,.nonesearch strong a:visited{color:#049;font-size:16px;}
+.nonesearch strong a:hover{color:#f00;font-size:16px;}
+
+.sclist_ri_fb{height:18px;line-height:18px;text-align:left;background:url(http://img1.soufun.com/house/detail_php/housesearch/shangsheng.jpg) no-repeat 0 4px;padding-left:10px;font-weight:bold;color:#f60;}
+.sclist_ri_fd{height:18px;line-height:18px;text-align:left;background:url(http://img1.soufun.com/house/detail_php/housesearch/xiajiang.jpg) no-repeat 0 4px;padding-left:10px;font-weight:bold;color:#6c3;}
+
+.p_disnone{display:none;}
+.p_show{display:block}
+
+.ico_rm{width:18px; height:20px;background:url(http://img1.soufun.com/house/images/search201406/ssicon.png) no-repeat -78px -43px;display:block;position:absolute;  top:6px; left:-2px; }
+/*20140813*/
+.hon_r {color: #c00 !important;}
+
+.searchTxtLink {
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.searchTxtLink li {
+    float: left;
+    padding-right: 50px;
+}
+.searchTxtLink li a:link, .searchTxtLink li a:visited {
+    color: #0858c8;
+    text-decoration: underline;
+}
+.searchTxtLink li a:hover {
+    color: #0858c8;
+}
+.searchTxtLink1 {
+    margin-top: 20px;
+}
+.searchTxtLink1 li {
+    color: #000;
+    font-size: 12px;
+    line-height: 20px;
+}
+.searchTxtLink1 .s1 {
+    margin-top: 10px;
+}
+.searchTxtLink1 .s1 a:link, .searchTxtLink1 .s1 a:visited {
+    color: #0808f8;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: underline;
+}
+.searchTxtLink1 .s1 a:hover {
+    color: #0808f8;
+    font-size: 14px;
+    line-height: 20px;
+}
+.searchTxtLink1 .s2 a:link, .searchTxtLink1 .s2 a:visited {
+    color: #ff0000;
+    text-decoration: underline;
+}
+.searchTxtLink1 .s2 a:hover {
+    color: #ff0000;
+}
+.searchTxtLink1 .s3 {
+    color: #989898;
+}
+

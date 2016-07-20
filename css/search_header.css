@@ -1,0 +1,131 @@
+@charset "gb2312";
+a{color:#333;}
+/* mini nav css */
+.divzxserv20120704Headerbox { width:950px; height:30px; padding:0 5px; margin:0 auto; background:#f5f5f5; color:#555; border-bottom:1px solid #eee; clear:both; overflow:hidden; }
+.divzxserv20120704Headerleft { float:left; display:inline; height:30px; line-height:30px; overflow:hidden; }
+.divzxserv20120704Headerright { float:right; display:inline; height:30px; line-height:30px; overflow:hidden; }
+.minav_ri li { float:left; overflow:hidden; }
+.divzxserv20120704Headerbox .divzxserv20120704Headerright {
+    color: #555555;
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+}
+.divzxserv20120704Headerbox .divzxserv20120704Headerright li {
+    float: left;
+    overflow: hidden;
+}
+.divzxserv20120704Headerbox .divzxserv20120704Headerleft {
+    float: left;
+    height: 30px;
+    letter-spacing: 0.08px;
+    line-height: 30px;
+    overflow: hidden;
+    word-spacing: 1px;
+}
+.divzxserv20120704fL{float:left;}
+/*首页大搜索 begin*/
+.soufunsearch110615{width:960px;height:97px;margin:0 auto;}
+.soufunsearch110615logo{float:left;width:120px;height:65px;margin:26px 2px 0 30px!important;_margin:26px 2px 0 30px;}/*切换城市2,3个字用*/
+/*.soufunsearch110615logo{float:left;width:120px;height:65px;margin:26px 2px 0 36px!important;margin:26px 15px 0 18px;}*//*切换城市4个字用*/
+.soufunsearch110615city{float:left;width:25px;height:40px;margin:54px 10px 0 0;text-align:center;font-size:14px;}/*切换城市2,3个字用*/
+/*.soufunsearch110615city{float:left;width:57px;height:40px;margin:54px 20px 0 0;text-align:center;font-size:14px;}*//*切换城市4个字用*/
+
+.soufunsearch110615city p{line-height:21px;margin:0;padding:0;}
+.soufunsearch110615city p.zilink,.soufunsearch110615city p.zilink a{color:#049;font-size:12px;}
+.soufunsearch110615right{float:left;width:700px;height:97px;}
+.soufunsearch110615rightnav{width:686px;height:25px;line-height:25px;padding:0 7px;font-size:14px;cursor:pointer;}
+.soufunsearch110615rightnav em{font-style:normal;background:url(http://img1.soufun.com/house/detail_php/housesearch/searchnew11061502.gif) no-repeat right 5px;padding-right:13px;position: relative;z-index:9999 }
+.soufunsearch110615rightnav .navtd,.soufunsearch110615rightnav .navtdup{float:left;width:auto;padding:0 10px;}
+.soufunsearch110615rightnav .navtd,.soufunsearch110615rightnav .navtd a{color:#049;}
+.soufunsearch110615rightnav .navtdup{font-weight:bold;color:#333;background:url(http://img1.soufun.com/house/detail_php/housesearch/searchnew11061501.gif) center no-repeat;}
+.soufunsearch110615rightform{width:688px;height:65px;background:url(http://img1.soufun.com/house/detail_php/housesearch/searchnew110615.gif) no-repeat;padding:7px 6px 0 6px;z-index:99;}
+.soufunsearch110615rightform form{margin:0;padding:0;border:0;}
+.soufunsearch110615rightform .inputbox{float:left;width:512px;height:27px;padding:3px 5px;overflow:hidden;border:none;background:url(http://img1.soufun.com/house/detail_php/housesearch/searchnew110615.gif) no-repeat 0 -85px;}
+.soufunsearch110615rightform .tr01{height:33px;position: relative;z-index:998;}
+.soufunsearch110615rightform .inpbj {background:url(http://img1.soufun.com/house/detail_php/housesearch/searchnew110615.gif) no-repeat scroll 0px -310px;display:block;height:17px;left:5px;position:absolute;top:8px;width:18px;}
+.soufunsearch110615rightform label {color:#888;cursor:inherit;display:block;left:26px;position:absolute;top:9px;font-size:14px;}
+.soufunsearch110615rightform .tr02{height:22px;margin-top:3px;}
+.more0413pm {width:88px;border:1px solid #4c9ae3; background:#fff;position:absolute;top:22px;left:9px;}/*新增下拉*/
+.more0413pm li{width:88px;height:24px;line-height:24px;font-size:13px;}/*新增下拉*/
+.more0413pm li a{display:block;width:83px;height:24px;line-height:24px;text-decoration:none;padding-left:5px;}/*新增下拉*/
+.more0413pm li a:hover{display:block;width:83px;height:24px;line-height:24px;background:#d0e1f5;text-decoration:none;padding-left:5px;}/*新增下拉*/
+
+.inputstyle_on{background:url(http://img1.soufun.com/house/detail_php/housesearch/searchnew110615.gif) no-repeat 0 -267px;_background-attachment:fixed;}
+.inputstyle_move{background:url(http://img1.soufun.com/house/detail_php/housesearch/searchnew110615.gif) no-repeat 0 -267px;_background-attachment:fixed;}
+.inputstyle_off{background:url(http://img1.soufun.com/house/detail_php/housesearch/searchnew110615.gif) no-repeat 0 -85px;_background-attachment:fixed;}
+.soufunsearch110615rightform .button{float:left;cursor:pointer;border:0;width:107px;height:33px;line-height:33px;margin-left:3px;background:url(http://img1.soufun.com/house/detail_php/housesearch/searchnew110615.gif) no-repeat 0 -122px;}
+a.menubar:visited{color:#888;}
+a.menubar:hover{color:#888;}
+a.menubar{float:left;color:#888;cursor:pointer;width:86px;height:22px;line-height:23px;display:block;text-decoration:none;overflow:hidden;padding-left:5px;cursor:default;}
+a.menubar:hover,a.menubarnewOn{text-decoration:none;}
+#strDistrict0_a,#strDistrict0_a:hover,#strPurpose0_a,#strPurpose0_a:hover,#strPrice0_a,#strPrice0_a:hover{background:url(http://img1.soufun.com/house/detail_php/housesearch/searchnew110615.gif) no-repeat 0 -162px transparent;}
+#strDistrict0_a:hover,#strPurpose0_a:hover{background-position:0 -185px;}
+#strPurpose0_a{margin-left:4px;}
+#strPrice0_a,#strPrice0_a:hover{margin-left:4px;width:101px;background-position:0 -208px;}
+#strPrice0_a:hover{background-position:0 -231px;}
+.soufunsearch110615rightform .searchmap{float:left;color:#333;margin-top:3px;margin-left:25px;line-height:22px;background:url(http://img1.soufun.com/house/detail_php/housesearch/searchnew110615.gif) no-repeat -34px -308px transparent;padding-left:12px;color:#049;}/*20120423*/
+.soufunsearch110615rightform .searchmap a{color:#049;}/*20120423*/
+.soufunsearch110615rightform .checkbox{vertical-align:middle;margin-top:-3px;margin-bottom:1px;}
+.soufunsearch110615rightform .mobile{float:right;color:#333;margin-top:3px;margin-right:25px;line-height:22px;background:url(http://img1.soufun.com/house/detail_php/housesearch/searchnew110615.gif) no-repeat 0px -342px transparent;padding-left:14px;color:#049;}/*20120423*/
+.soufunsearch110615rightform .mobile a{color:#049;}/*20120423*/
+/*首页大搜索 end*/
+
+/*限制输入字不超宽*/
+
+.paneltable{background:#fff;border:1px solid #3c91E0;padding:1px;}
+.paneltable a{display:block;margin:0 auto;padding:4px;font-size:12px;height:14px;line-height:14px;color:#004499;white-space:nowrap;text-decoration:none;}
+.paneltable a:hover,.suggest_selected{height:14px;line-height:14px;font-size:12px;background:#d0e1f5;color:#004499;white-space:nowrap;}
+.paneltable a.panelcurrent{height:14px;line-height:14px;font-size:12px;background:#2d7ec9;color:#fff;white-space:nowrap;}
+.priceinput{border:1px solid #CACACA;font-size:11px;}
+.pricebutton{font-size:12px;color:#333;border:solid 1px #A9A9A9;display:inline-block;width:39px;height:18px;line-height:18px;background-color:#F6F6F6;background-image:url(http://img1.soufun.com/house/images/search201406/price_bg.png);background-repeat:repeat-x;}
+.pricebutton:hover{cursor:pointer;}
+.priceself{border-top:1px solid #E2F3FF;line-height:20px;padding:2px;}
+.tbheadmore{color:#F60;font-size:12px;font-weight:bold;line-height:26px;height:26px;overflow:hidden;}
+.tbheadmore span{padding-left:4px;}
+th.tbheadmore{text-align:left;padding-left:3px;}
+/* 2012-5-4添加 */
+.soufunsearch110615rightform .searchmap {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: url(http://img1.soufun.com/house/detail_php/housesearch/searchnew110615.gif);
+    background-origin: padding-box;
+    background-position: -34px -308px;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    color: #004499;
+    float: right;
+    line-height: 22px;
+    margin-left: 25px;
+    margin-top: 3px;
+    padding-left: 12px;
+}
+.soufunsearch110615rightform .mobile {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: url(http://img1.soufun.com/house/detail_php/housesearch/searchnew110615.gif);
+    background-origin: padding-box;
+    background-position: 0 -342px;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    color: #004499;
+    float: right;
+    line-height: 22px;
+    margin-bottom: 0;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 3px;
+    padding-left: 14px;
+}
+.soufunsearch110615city{float:left;width:57px;height:40px;margin:54px 10px 0 0;text-align:center;font-size:14px;}/*切换城市2,3个字用*/
+/*.soufunsearch110615city{float:left;width:57px;height:40px;margin:54px 20px 0 0;text-align:center;font-size:14px;}*//*切换城市4个字用*/
+.soufunsearch110615city p{line-height:21px;margin:0;padding:0;text-align:center;}
+.soufunsearch110615city p.zilink,.soufunsearch110615city p.zilink a{color:#049;font-size:12px;}
+/*首页大搜索 end*/
+
+#strDistrict0_a{width:86px;}
+#strPurpose0_a{width:86px;}
+#strPrice0_a{width:101px;}
