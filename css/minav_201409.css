@@ -1,7 +1,7 @@
 @charset "gb2312";
 /* base */
 body,div,ul,li,form,input,p,img{margin:0;padding:0;}
-body{font:12px/22px Arial,"\5B8B\4F53","SimSun",HELVETICA,"Hiragino Sans GB";color:#333}
+body{font:14px/22px Arial,"\5B8B\4F53","SimSun",HELVETICA,"Hiragino Sans GB";color:#333}
 a{text-decoration:none}
 ul{ list-style:none;}
 .tf { font-family:"\5FAE\8F6F\96C5\9ED1",Î¢ÈíÑÅºÚ,"Microsoft Yahei",ÑÅºÚ\9,Arial; }

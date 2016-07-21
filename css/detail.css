@@ -482,7 +482,7 @@ a:hover.right_btn{ background-position:-20px -30px}
 .nh_hd .nh_hd_right p{ font-size:14px; color:#FFF; text-align:center; margin-top:5px;}
 /*************************************************************** 地图 lz ********************************************************************************************/
 .mapbox{ height:339px; width:1198px;}
-.mapbox_dt{ width:1198px; height:339px; float:left; position:relative;}
+.mapbox_dt{ width:880px; height:339px; float:left; position:relative;}
 .mapbox_dt img{ vertical-align:top; }
 .mapbox_yy{ width:300px; float:right; height:339px; background:#FFF; position:absolute; right:0px; top:0px; margin-right:0px; border-left:#dfddda 1px solid;}
 .map_open,.map_close{ background:#FFF;position:absolute;width:18px;height:94px;background-image:url(http://img1.soufun.com/house/images/xqy201410/map_box_close.jpg);background-position:0% 50%;background-repeat:no-repeat;top:50%;left:-20px; margin-top:-48px; border:#dbdad9 1px solid; border-right:#FFF 1px solid;cursor:pointer;}
@@ -866,7 +866,6 @@ input.comm_btn_chen{ border-radius:5px; padding:0px 10px; width:auto; min-width:
 .subscribe_400>div .p3 span{ float:left;}
 /*0428* 户型图部分加销售状态*/
 .huxing_map_box li{position:relative}
-.zs{top:0px;left:-4px;position:absolute;width:54px;height:29px;background: url(http://img1.soufun.com/house/images/szs.png) no-repeat; z-index:100}
 .ds{top:0px;left:-4px;position:absolute;width:54px;height:29px;background: url(http://img1.soufun.com/house/images/sds.png) no-repeat;z-index:100}
 .sw{top:0px;left:-4px;position:absolute;width:54px;height:29px;background: url(http://img1.soufun.com/house/images/sw.png) no-repeat;z-index:100}
 /*0509详情页添加电商文案推广位*/
@@ -2129,3 +2128,5 @@ div,form,img,ul,ol,li,dl,dt,dd,p{margin:0;padding:0px;border:0;}
 .xx_list span { font-weight: bold; color: #333; float: left; line-height: 26px; margin-top: 10px; }
 .xx_list em { color: #666; float: left; line-height: 26px; margin-top: 10px; display:inline-block; height:26px; width:190px; white-space: nowrap;text-overflow: ellipsis; overflow:hidden; }
 .xx_list em i { font-style: normal; font-size: 28px; color: #f33; float: left; line-height: 30px; margin-top: -4px; }
+.gundong .img_on img { border: #F33 2px solid; }
+.gundong .img_on { border: none;   }
