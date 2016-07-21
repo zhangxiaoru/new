@@ -1,3 +1,4 @@
+
 $(function(){
     var move = {index:0};
     var page = 1;
@@ -16,16 +17,16 @@ $(function(){
         })
     })
     //向后 按钮
-    $("a.s_next").click(function(){    //绑定click事件
+    $("a.s_next").click(function(){
         var $pics = $('.outScroll_pic .scroll_pic');
-        var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数
-        if( !$pics.is(":animated") ){    //判断“视频内容展示区域”是否正在处于动画
-            if( x == len ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。
+        var page_count = Math.ceil(len / i) ;
+        if( !$pics.is(":animated") ){
+            if( x == len ){
                 return;
 
             }else{
-                if( move.index == 4 ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。
-                    $pics.animate({ left : '-='+500 }, "fast");  //通过改变left值，达到每次换一个版面
+                if( move.index == 4 ){
+                    $pics.animate({ left : '-='+500 }, "fast");
                     page++;
                     move.index = 0;
                     $(".current").animate({ left : move.index*100 }, "fast");
@@ -42,15 +43,15 @@ $(function(){
         }
     });
     //往前 按钮
-    $("a.s_pre").click(function(){    //绑定click事件
+    $("a.s_pre").click(function(){
         var $pics = $('.outScroll_pic .scroll_pic');
-        var page_count = Math.ceil(len / i) ;   //只要不是整数，就往大的方向取最小的整数
-        if( !$pics.is(":animated") ){    //判断“视频内容展示区域”是否正在处于动画
-            if( x == 1 ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。
+        var page_count = Math.ceil(len / i) ;
+        if( !$pics.is(":animated") ){
+            if( x == 1 ){
                 return;
             }else{
-                if( move.index == 0 ){  //已经到最后一个版面了,如果再向后，必须跳转到第一个版面。
-                    $pics.animate({ left : '0px' }, "fast");  //通过改变left值，达到每次换一个版面
+                if( move.index == 0 ){
+                    $pics.animate({ left : '0px' }, "fast");
                     page++;
                     move.index = 4;
                     $(".current").animate({ left : move.index*100 }, "fast");
@@ -66,6 +67,8 @@ $(function(){
 
         }
     });
+
+    Img.init();
 });
 
 function goDetail() {
@@ -92,3 +95,100 @@ $(".huxing_map_box_img_item a").mouseover(function (e) {
     $("#tooltip").remove();
     this.title = this.tempTitle;
 });
+
+var Img = {
+    screenNum:8,
+    page:1,
+    index:0,
+    imgTotal: 0,
+    pageTotal: 0,
+
+
+    init:function(){
+        Img.imgTotal = $(".by_img_list").data("total");
+        Img.pageTotal = Math.ceil(Img.imgTotal / Img.screenNum);
+
+        $(".right_jt").click(Img.moveLeft);
+        $(".left_jt").click(Img.moveRight);
+        $(".by_img_list li").click(Img.showBigImg);
+        $(".big_img_next").click(Img.bigMoveLeft);
+        $(".big_img_prev").click(Img.bigMoveRight);
+
+    },
+
+    moveLeft:function(){
+        if(Img.page >= Img.pageTotal) return;
+        else{
+            var surplus = Img.imgTotal - Img.screenNum * Img.page;
+            $(".by_img_list li").each(function(index,item){
+                if(surplus>Img.screenNum){
+                    $(this).find("img")[0].src = "../img/bjmm/small_"+(parseInt(Img.screenNum * Img.page)+parseInt(index))+".jpg";
+                    $(this).show();
+                }else{
+                    if(surplus >= index + 1){
+                        $(this).find("img")[0].src = "../img/bjmm/small_"+(parseInt(Img.screenNum * Img.page)+parseInt(index))+".jpg";
+                        $(this).show();
+                    }else{
+                        $(this).hide();
+                    }
+                }
+
+            });
+            Img.page++;
+        }
+    },
+    moveRight:function(){
+        if(Img.page == 1) return;
+        else{
+            Img.page--;
+            $(".by_img_list li").each(function(index,item){
+                    $(this).find("img")[0].src = "../img/bjmm/small_"+(parseInt(Img.screenNum * (Img.page - 1))+parseInt(index))+".jpg";
+                    $(this).show();
+            });
+
+        }
+    },
+    showBigImg:function(){
+        var src = $(this).find("img")[0].src;
+        var start = src.indexOf("_"),end = src.indexOf("."),index = src.substring(start+1,end);
+        $(".HD_nowphoto img")[0].src = "../img/bjmm/big_"+index+".jpg";
+        $(this).addClass("img_on").siblings().removeClass("img_on");
+        Img.index = $(this).index();
+
+    },
+    bigMoveLeft:function(){
+        if(parseInt(Img.screenNum * (Img.page -1)+Img.index)>=Img.imgTotal-1) return;
+        else{
+            if((Img.index+1)%8==0){
+                Img.moveLeft();
+                Img.index = 0;
+            }else{
+                Img.index++;
+            }
+            $(".HD_nowphoto img")[0].src = "../img/bjmm/big_"+(parseInt(Img.screenNum * (Img.page - 1))+parseInt(Img.index))+".jpg";
+            $(".by_img_list li:eq("+Img.index+")").addClass("img_on").siblings().removeClass("img_on");
+        }
+
+    },
+    bigMoveRight:function(){
+        if(parseInt(Img.screenNum * (Img.page - 1) + Img.index)<=0) return;
+        else{
+            if(Img.index%8==0){
+                Img.moveRight();
+                Img.index = Img.screenNum - 1;
+                //$(".by_img_list li:eq(" +(Img.screenNum - 1) + ")").addClass("img_on").siblings().removeClass("img_on");
+                //$(".HD_nowphoto img")[0].src = "../img/bjmm/880x578_"+(parseInt(Img.screenNum * Img.page )+parseInt(Img.index))+".jpg";
+
+            }else{
+                Img.index--;
+                //$(".by_img_list li:eq("+Img.index+")").addClass("img_on").siblings().removeClass("img_on");
+                //$(".HD_nowphoto img")[0].src = "../img/bjmm/880x578_"+(parseInt(Img.screenNum * (Img.page - 1) )+parseInt(Img.index))+".jpg";
+
+            }
+            $(".HD_nowphoto img")[0].src = "../img/bjmm/big_"+(parseInt(Img.screenNum * (Img.page - 1) )+parseInt(Img.index))+".jpg";
+            $(".by_img_list li:eq("+Img.index+")").addClass("img_on").siblings().removeClass("img_on");
+        }
+
+    }
+};
+
