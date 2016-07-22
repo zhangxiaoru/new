@@ -102,11 +102,13 @@ var Img = {
     index:0,
     imgTotal: 0,
     pageTotal: 0,
+    source:"",
 
 
     init:function(){
         Img.imgTotal = $(".by_img_list").data("total");
         Img.pageTotal = Math.ceil(Img.imgTotal / Img.screenNum);
+        Img.source = $(".by_img_list").data("source");
 
         $(".right_jt").click(Img.moveLeft);
         $(".left_jt").click(Img.moveRight);
@@ -122,11 +124,11 @@ var Img = {
             var surplus = Img.imgTotal - Img.screenNum * Img.page;
             $(".by_img_list li").each(function(index,item){
                 if(surplus>Img.screenNum){
-                    $(this).find("img")[0].src = "../img/bjmm/small_"+(parseInt(Img.screenNum * Img.page)+parseInt(index))+".jpg";
+                    $(this).find("img")[0].src = "../img/"+Img.source+"/small_"+(parseInt(Img.screenNum * Img.page)+parseInt(index))+".jpg";
                     $(this).show();
                 }else{
                     if(surplus >= index + 1){
-                        $(this).find("img")[0].src = "../img/bjmm/small_"+(parseInt(Img.screenNum * Img.page)+parseInt(index))+".jpg";
+                        $(this).find("img")[0].src = "../img/"+Img.source+"/small_"+(parseInt(Img.screenNum * Img.page)+parseInt(index))+".jpg";
                         $(this).show();
                     }else{
                         $(this).hide();
@@ -142,7 +144,7 @@ var Img = {
         else{
             Img.page--;
             $(".by_img_list li").each(function(index,item){
-                    $(this).find("img")[0].src = "../img/bjmm/small_"+(parseInt(Img.screenNum * (Img.page - 1))+parseInt(index))+".jpg";
+                    $(this).find("img")[0].src = "../img/"+Img.source+"/small_"+(parseInt(Img.screenNum * (Img.page - 1))+parseInt(index))+".jpg";
                     $(this).show();
             });
 
@@ -151,7 +153,7 @@ var Img = {
     showBigImg:function(){
         var src = $(this).find("img")[0].src;
         var start = src.indexOf("_"),end = src.indexOf("."),index = src.substring(start+1,end);
-        $(".HD_nowphoto img")[0].src = "../img/bjmm/big_"+index+".jpg";
+        $(".HD_nowphoto img")[0].src = "../img/"+Img.source+"/big_"+index+".jpg";
         $(this).addClass("img_on").siblings().removeClass("img_on");
         Img.index = $(this).index();
 
@@ -165,7 +167,7 @@ var Img = {
             }else{
                 Img.index++;
             }
-            $(".HD_nowphoto img")[0].src = "../img/bjmm/big_"+(parseInt(Img.screenNum * (Img.page - 1))+parseInt(Img.index))+".jpg";
+            $(".HD_nowphoto img")[0].src = "../img/"+Img.source+"/big_"+(parseInt(Img.screenNum * (Img.page - 1))+parseInt(Img.index))+".jpg";
             $(".by_img_list li:eq("+Img.index+")").addClass("img_on").siblings().removeClass("img_on");
         }
 
@@ -185,7 +187,7 @@ var Img = {
                 //$(".HD_nowphoto img")[0].src = "../img/bjmm/880x578_"+(parseInt(Img.screenNum * (Img.page - 1) )+parseInt(Img.index))+".jpg";
 
             }
-            $(".HD_nowphoto img")[0].src = "../img/bjmm/big_"+(parseInt(Img.screenNum * (Img.page - 1) )+parseInt(Img.index))+".jpg";
+            $(".HD_nowphoto img")[0].src = "../img/"+Img.source+"/big_"+(parseInt(Img.screenNum * (Img.page - 1) )+parseInt(Img.index))+".jpg";
             $(".by_img_list li:eq("+Img.index+")").addClass("img_on").siblings().removeClass("img_on");
         }
 
