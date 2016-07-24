@@ -161,6 +161,20 @@ $(function(){
                     var type = tj_this[0].className.split(" ")[1];
                     var data = _this.data(type);
                     if(type == 'price'){
+                        var priceAry = tj_this.html().split("-");
+                        if(priceAry.length==1){
+                            priceAry = priceAry[0].split("рт");
+                            if(priceAry[1]=="об"){
+                                if(parseInt(data) > parseInt(priceAry[0])) _this.flag = false;
+                            }else if(priceAry[1]=="ио"){
+                                if(parseInt(data) < parseInt(priceAry[0])) _this.flag = false;
+                            }
+                        }else{
+                            if(parseInt(data) >= priceAry[0] && parseInt(data) <= priceAry[1])
+                                _this.flag = true;
+                            else
+                                _this.flag = false;
+                        }
 
                     }else{
                         if(data.indexOf(tj_this.html()) == -1){

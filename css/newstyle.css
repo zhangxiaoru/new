@@ -53,11 +53,11 @@ a{ text-decoration:none !important;}
 .address{ float:left; width:270px; font-size:12px; color:#999;overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
 .address a{ color:#999;}
 .slogan{ height:30px; line-height:30px; font-size:16px; color:#f33;}
-.tel{ float:right; min-width:190px;}
-.tel>p{ float:left; font-size:14px; font-weight:bold; color:#666;}
+.tel{ float:right; min-width:190px;text-align: right}
+.tel>p{ =float:left; font-size:14px; font-weight:bold; color:#666;display: inline-block;}
 .tel>p>span{ font-size:12px; padding: 0 3px;}
 
-.tel>em{  float:left; width:16px; height:16px; margin-right:3px; background:url(../img/tel.png) no-repeat; position:relative; top:7px;}
+.tel>em{  =float:left; width:16px; height:16px; margin-right:3px; background:url(../img/tel.png) no-repeat; position:relative; top:2px;display: inline-block;}
 .nhouse_price{ height:45px; line-height:45px; position:absolute; right:15px; top:5px; z-index:1;}
 .nhouse_price>span{ font-size:30px; font-weight:bold; color:#cf0000; display:inline-block;}
 .nhouse_price>em{ margin-left:4px; font-size:12px; color: #999; position:relative;display:inline-block; font-style:normal; position:relative; top:-2px;}
